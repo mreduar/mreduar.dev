@@ -27,6 +27,12 @@
         @yield('content')
     </div>
 
+    @if($page->services->disqus && $page->comments !== false)
+        <div class="mb-4 pb-4">
+            @include('_components.comments')
+        </div>
+    @endif
+
     <nav class="flex justify-between text-sm md:text-base">
         <div>
             @if ($next = $page->getNext())
