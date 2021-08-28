@@ -1,7 +1,7 @@
 <template>
     <div class="flex flex-1 justify-end items-center text-right px-4">
         <div
-            class="absolute md:relative w-full justify-end bg-white left-0 top-0 z-10 mt-7 md:mt-0 px-4 md:px-0"
+            class="absolute md:relative w-full justify-end left-0 top-0 z-10 mt-7 md:mt-0 px-4 md:px-0"
             :class="{'hidden md:flex': ! searching}"
         >
             <label for="search" class="hidden">Search</label>
@@ -28,10 +28,10 @@
 
             <transition name="fade">
                 <div v-if="query" class="absolute left-0 right-0 md:inset-auto w-full lg:w-3/4 text-left mb-4 md:mt-10">
-                    <div class="flex flex-col bg-white border border-b-0 border-t-0 border-blue-400 rounded-b-lg shadow-lg mx-4 md:mx-0">
+                    <div class="flex flex-col bg-darker border border-b-0 border-t-0 border-blue-400 rounded-b-lg shadow-lg mx-4 md:mx-0">
                         <a
                             v-for="(result, index) in results"
-                            class="bg-white hover:bg-blue-100 border-b border-blue-400 text-xl cursor-pointer p-4"
+                            class="bg-darker hover:bg-blue-100 border-b border-blue-400 text-xl cursor-pointer p-4"
                             :class="{ 'rounded-b-lg': (index === results.length - 1) }"
                             :href="result.item.link"
                             :title="result.item.title"
@@ -45,7 +45,7 @@
 
                         <div
                             v-if="! results.length"
-                            class="bg-white w-full hover:bg-blue-100 border-b border-blue-400 rounded-b-lg shadow cursor-pointer p-4"
+                            class="bg-darker w-full hover:bg-darker-100 border-b border-blue-400 rounded-b-lg shadow cursor-pointer p-4"
                         >
                             <p class="my-0">No results for <strong>{{ query }}</strong></p>
                         </div>

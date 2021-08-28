@@ -54,6 +54,22 @@ module.exports = {
       '5xl': '2.625rem',
       '6xl': '10rem',
     },
+    backgroundColor: theme => ({
+      ...theme('colors'),
+      'darker': '#222831',
+      'blue-mr': '#1c7ad8',
+      'pre': '#1A1D24',
+    }),
+    textColor: theme => ({
+      ...theme('colors'),
+      'cream-darker': '#cccc',
+      'cream-light': '#f6f6f6'
+    }),
+    gradientColorStops: theme => ({
+      ...theme('colors'),
+      'darker': '#222831',
+      'blacked': '#14181d'
+    })
   },
   variants: {
     borderRadius: ['responsive', 'focus'],

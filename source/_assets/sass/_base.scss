@@ -19,12 +19,12 @@ blockquote {
     @apply .italic;
     @apply .my-8;
     @apply .pl-6;
-    @apply .text-gray-800;
+    @apply .text-cream-darker;
     @apply .text-lg;
 }
 
 code {
-    @apply .bg-gray-300;
+    @apply .bg-blue-mr;
     @apply .px-2;
     @apply .py-px;
     @apply .rounded;
@@ -52,7 +52,7 @@ h6 {
     @apply .leading-tight;
     @apply .mb-4;
     @apply .mt-8;
-    @apply .text-gray-900;
+    @apply .text-white;
 
     &:first-child {
         @apply .mt-0;
@@ -126,7 +126,7 @@ p {
 }
 
 pre {
-    @apply .bg-gray-200;
+    @apply .bg-pre;
     @apply .leading-loose;
     @apply .my-6;
     @apply .overflow-x-auto;
