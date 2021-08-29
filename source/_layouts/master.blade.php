@@ -1,38 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="description" content="{{ $page->description ?? $page->siteDescription }}">
 
-        <meta property="og:title" content="{{ $page->title ? $page->title . ' | ' : '' }}{{ $page->siteName }}"/>
+        <meta property="og:title" content="{{ $page->title ? $page->title . ' | ' : '' }}{{ $page->siteName }}" />
         <meta property="og:type" content="{{ $page->type ?? 'website' }}" />
-        <meta property="og:url" content="{{ $page->getUrl() }}"/>
+        <meta property="og:url" content="{{ $page->getUrl() }}" />
         <meta property="og:description" content="{{ $page->description ?? $page->siteDescription }}" />
 
-        <title>{{ $page->title ?  $page->title . ' | ' : '' }}{{ $page->siteName }}</title>
+        <title>{{ $page->title ?  $page->title . ' | ' : '' }}{{ $page->title ? $page->siteName : $page->fullSiteName }}</title>
 
         <link rel="home" href="{{ $page->baseUrl }}">
         <link rel="icon" href="/favicon.ico">
-        <link href="/blog/feed.atom" type="application/atom+xml" rel="alternate" title="{{ $page->siteName }} Atom Feed">
+        <link href="/blog/feed.atom" type="application/atom+xml" rel="alternate"
+            title="{{ $page->siteName }} Atom Feed">
 
         @if ($page->production)
-            <!-- Insert analytics code here -->
+        <!-- Insert analytics code here -->
         @endif
 
-        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i"
+            rel="stylesheet">
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
     </head>
 
     <body class="flex flex-col justify-between min-h-screen bg-darker text-cream-light leading-normal font-sans">
-        <header class="flex items-center shadow bg-gradient-to-r from-blacked to-darker border-b border-black h-24 py-4" role="banner">
+        <nav class="flex items-center shadow bg-gradient-to-r from-blacked to-darker {{-- @hasSection('header') @else border-b border-black @endif --}} h-24 py-4"
+            role="banner">
             <div class="container flex items-center max-w-8xl mx-auto px-4 lg:px-8">
                 <div class="flex items-center">
                     <a href="/" title="{{ $page->siteName }} home" class="inline-flex items-center">
-                        <img class="h-8 md:h-10 mr-3" src="/assets/img/logo.svg" alt="{{ $page->siteName }} logo" />
+                        <img class="h-7 md:h-8 mr-3" src="/assets/img/logo.png" alt="{{ $page->siteName }} logo" />
 
-                        <h1 class="text-lg md:text-2xl  font-semibold hover:text-blue-600 my-0">{{ $page->siteName }}</h1>
+                        <h1 class="text-lg md:text-2xl  font-semibold hover:text-blue-600 my-0">{{ $page->siteName }}
+                        </h1>
                     </a>
                 </div>
 
@@ -44,11 +49,18 @@
                     @include('_nav.menu-toggle')
                 </div>
             </div>
-        </header>
+        </nav>
 
         @include('_nav.menu-responsive')
 
-        <main role="main" class="flex-auto w-full container max-w-4xl mx-auto py-16 px-6">
+        @hasSection('header')
+        <header class="text-center bg-gradient-to-r from-blacked to-darker pb-16"
+            style="clip-path: polygon(50% 0%, 100% 0, 100% 65%, 50% 100%, 0 65%, 0 0);">
+            @yield('header')
+        </header>
+        @endif
+
+        <main role="main" class="flex-auto w-full py-16 px-6 container max-w-4xl mx-auto">
             @yield('body')
         </main>
 
@@ -60,7 +72,8 @@
 
                 <li>
                     Built with <a href="http://jigsaw.tighten.co" title="Jigsaw by Tighten">Jigsaw</a>
-                    and <a href="https://tailwindcss.com" title="Tailwind CSS, a utility-first CSS framework">Tailwind CSS</a>.
+                    and <a href="https://tailwindcss.com" title="Tailwind CSS, a utility-first CSS framework">Tailwind
+                        CSS</a>.
                 </li>
             </ul>
         </footer>
@@ -69,4 +82,5 @@
 
         @stack('scripts')
     </body>
+
 </html>

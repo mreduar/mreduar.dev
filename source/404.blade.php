@@ -9,7 +9,7 @@
         <hr class="block w-full max-w-sm mx-auto border my-8">
 
         <p class="text-xl">
-            Need to update this page? See the <a title="404 Page Documentation" href="https://jigsaw.tighten.co/docs/custom-404-page/">Jigsaw documentation</a>.
+            Are you lost? Visit the <a href="/">homepage</a>
         </p>
     </div>
 @endsection

@@ -1,20 +1,20 @@
 <div class="flex justify-center lg:-mx-12 my-12 p-6 md:px-12 bg-gray-200 border border-gray-400 text-sm md:rounded shadow">
     <!-- Begin Mailchimp Signup Form -->
     <div id="mc_embed_signup">
-        <form action="https://your-mail-chimp-list-manage-url" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <form action="https://gmail.us14.list-manage.com/subscribe/post?u=02a2ac09ace4e2be99b87a378&amp;id=c62fc1badc" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
             <div id="mc_embed_signup_scroll">
                 <h2>Sign up for our newsletter</h2>
                 <div class="mc-field-group">
                     <label for="mce-EMAIL">Email Address </label>
-                    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email address">
+                    <input type="email" value="" name="EMAIL" class="required email text-gray-900" id="mce-EMAIL" placeholder="Email address">
                 </div>
-                <div id="mce-responses" class="clear">
-                    <div class="response" id="mce-error-response" style="display:none"></div>
-                    <div class="response" id="mce-success-response" style="display:none"></div>
-                </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                 <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_25582686a9fc051afd5453557_189578c854" tabindex="-1" value=""></div>
                 <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+            </div>
+            <div id="mce-responses" class="clear text-gray-900 inline-block">
+                <div class="response" id="mce-success-response" style="display: none;"></div>
+                <div class="response" id="mce-error-response" style="display: none;"></div>
             </div>
         </form>
     </div>

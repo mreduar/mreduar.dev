@@ -5,8 +5,9 @@ use Illuminate\Support\Str;
 return [
     'baseUrl' => '',
     'production' => false,
-    'siteName' => 'mreduar.dev',
-    'siteDescription' => 'Generate an elegant blog with Jigsaw',
+    'siteName' => 'Eduar Bastidas',
+    'fullSiteName' => 'Eduar Bastidas | Full-stack PHP developer.',
+    'siteDescription' => 'Full-stack Web Developer',
     'siteAuthor' => 'Eduar Bastidas',
 
     // collections

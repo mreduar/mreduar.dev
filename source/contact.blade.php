@@ -14,7 +14,7 @@ description: Get in touch with us
 <form action="https://getform.io/f/f737847c-d09e-49c4-90fa-9452081fcab4" method="POST" class="mb-12">
     <div class="flex flex-wrap mb-6 -mx-3">
         <div class="w-full md:w-1/2 mb-6 md:mb-0 px-3">
-            <label class="block mb-2 text-gray-800 text-sm font-semibold" for="contact-name">
+            <label class="block mb-2 text-sm font-semibold" for="contact-name">
                 Name
             </label>
 
@@ -29,7 +29,7 @@ description: Get in touch with us
         </div>
 
         <div class="w-full px-3 md:w-1/2">
-            <label class="block text-gray-800 text-sm font-semibold mb-2" for="contact-email">
+            <label class="block text-sm font-semibold mb-2" for="contact-email">
                 Email Address
             </label>
 
@@ -45,7 +45,7 @@ description: Get in touch with us
     </div>
 
     <div class="w-full mb-12">
-        <label class="block text-gray-800 text-sm font-semibold mb-2" for="contact-message">
+        <label class="block text-sm font-semibold mb-2" for="contact-message">
             Message
         </label>
 
