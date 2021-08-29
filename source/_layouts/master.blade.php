@@ -29,7 +29,7 @@
     </head>
 
     <body class="flex flex-col justify-between min-h-screen bg-darker text-cream-light leading-normal font-sans">
-        <nav class="flex items-center shadow bg-gradient-to-r from-blacked to-darker {{-- @hasSection('header') @else border-b border-black @endif --}} h-24 py-4"
+        <nav class="flex items-center shadow bg-gradient-to-r from-blacked to-darker h-24 py-4"
             role="banner">
             <div class="container flex items-center max-w-8xl mx-auto px-4 lg:px-8">
                 <div class="flex items-center">
@@ -54,7 +54,7 @@
         @include('_nav.menu-responsive')
 
         @hasSection('header')
-        <header class="text-center bg-gradient-to-r from-blacked to-darker pb-16"
+        <header class="text-center bg-gradient-to-r from-blacked to-darker pb-16 pt-10"
             style="clip-path: polygon(50% 0%, 100% 0, 100% 65%, 50% 100%, 0 65%, 0 0);">
             @yield('header')
         </header>

@@ -5,10 +5,10 @@ body {
 a {
     @apply .font-semibold;
     @apply .no-underline;
-    @apply .text-blue-600;
+    @apply .text-indigo-600;
 
     &:hover {
-        @apply .text-blue-800;
+        @apply .text-indigo-800;
     }
 }
 
@@ -24,7 +24,7 @@ blockquote {
 }
 
 code {
-    @apply .bg-blue-mr;
+    @apply .bg-indigo-800;
     @apply .px-2;
     @apply .py-px;
     @apply .rounded;

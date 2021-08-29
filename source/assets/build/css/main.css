@@ -706,14 +706,14 @@ a {
   font-weight: 600;
   text-decoration: none;
   --text-opacity: 1;
-  color: #3182ce;
-  color: rgba(49, 130, 206, var(--text-opacity));
+  color: #5a67d8;
+  color: rgba(90, 103, 216, var(--text-opacity));
 }
 
 a:hover {
   --text-opacity: 1;
-  color: #2c5282;
-  color: rgba(44, 82, 130, var(--text-opacity));
+  color: #434190;
+  color: rgba(67, 65, 144, var(--text-opacity));
 }
 
 blockquote {
@@ -732,8 +732,8 @@ blockquote {
 
 code {
   --bg-opacity: 1;
-  background-color: #1c7ad8;
-  background-color: rgba(28, 122, 216, var(--bg-opacity));
+  background-color: #434190;
+  background-color: rgba(67, 65, 144, var(--bg-opacity));
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   padding-top: 1px;
@@ -943,9 +943,6 @@ pre code {
   margin-bottom: 1.5rem;
   font-size: 1.5rem;
   text-align: center;
-  --text-opacity: 1;
-  color: #1a202c;
-  color: rgba(26, 32, 44, var(--text-opacity));
 }
 
 .mc-field-group input {
@@ -980,8 +977,8 @@ pre code {
 
 #mc-embedded-subscribe {
   --bg-opacity: 1;
-  background-color: #4299e1;
-  background-color: rgba(66, 153, 225, var(--bg-opacity));
+  background-color: #3c366b;
+  background-color: rgba(60, 54, 107, var(--bg-opacity));
   cursor: pointer;
   line-height: 1.6;
   padding-left: 1.5rem;
@@ -998,8 +995,8 @@ pre code {
 
 #mc-embedded-subscribe:hover {
   --bg-opacity: 1;
-  background-color: #3182ce;
-  background-color: rgba(49, 130, 206, var(--bg-opacity));
+  background-color: #434190;
+  background-color: rgba(67, 65, 144, var(--bg-opacity));
 }
 
 @media (min-width: 768px) {
