@@ -54,7 +54,7 @@
         @include('_nav.menu-responsive')
 
         @hasSection('header')
-        <header class="text-center bg-gradient-to-r from-blacked to-darker pb-16 pt-10"
+        <header class="text-center bg-gradient-to-r from-blacked to-darker pb-40 md:pb-24 pt-10"
             style="clip-path: polygon(50% 0%, 100% 0, 100% 65%, 50% 100%, 0 65%, 0 0);">
             @yield('header')
         </header>

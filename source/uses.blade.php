@@ -31,7 +31,7 @@ description: This page contains a list of all the hardware I own and all the sof
                     </a>
                 </li>
             </ul>
-            <img src="/assets/images/vscode.png" alt="VSCode" class="w-2/3 mx-auto my-3">
+            <img src="/assets/images/vscode.png" alt="VSCode" class="md:w-2/3 mx-auto my-3">
         </li>
         <li class="list-none">
             <a href="https://insomnia.rest" target="_blank" rel="noopener noreferrer">📬 Insomnia</a>
@@ -47,7 +47,7 @@ description: This page contains a list of all the hardware I own and all the sof
             <span>
                 A good, highly customizable console that includes many unix commands for Windows out of the box.
             </span>
-            <img src="/assets/images/cmder.png" alt="cmder console for windows" class="w-2/3 mx-auto">
+            <img src="/assets/images/cmder.png" alt="cmder console for windows" class="md:w-2/3 mx-auto my-3">
         </li>
         <li class="list-none">
             <a href="https://spotify.com/" target="_blank" rel="noopener noreferrer">🎵 Spotify</a>
@@ -104,7 +104,7 @@ description: This page contains a list of all the hardware I own and all the sof
     <h2>
         Hardware
     </h2>
-    <img src="/assets/images/cpu.png" alt="MY PC" class="w-2/3 mx-auto my-3">
+    <img src="/assets/images/cpu.png" alt="MY PC" class="md:w-2/3 mx-auto my-3">
     <ul class="list-none">
         <li>
             CPU:
@@ -170,7 +170,7 @@ description: This page contains a list of all the hardware I own and all the sof
     <h2>
         Audio + Video + Peripherals
     </h2>
-    <img src="/assets/images/setup.png" alt="Setup" class="w-2/3 mx-auto my-3">
+    <img src="/assets/images/setup.png" alt="Setup" class="md:w-2/3 mx-auto my-3">
     <ul class="list-none">
         <li>
             My system audio revolves around a <a href="https://www.amazon.com/-/en/Genius-SW-G2-1-1250-0-138-reproductores/dp/B08143J5G6" target="_blank">
