@@ -11,3 +11,8 @@
 @import 'blog';
 
 @tailwind utilities;
+
+.tsparticles-canvas-el {
+    position: fixed;
+    z-index: -1;
+}

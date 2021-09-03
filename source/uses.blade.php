@@ -170,17 +170,17 @@ description: This page contains a list of all the hardware I own and all the sof
     <h2>
         Audio + Video + Peripherals
     </h2>
-    <img src="/assets/images/my-pc.png" alt="Setup" class="w-2/3 mx-auto my-3">
+    <img src="/assets/images/setup.png" alt="Setup" class="w-2/3 mx-auto my-3">
     <ul class="list-none">
         <li>
             My system audio revolves around a <a href="https://www.amazon.com/-/en/Genius-SW-G2-1-1250-0-138-reproductores/dp/B08143J5G6" target="_blank">
-                Genius Gaming SW-G2.1 1250
+                Genius SW-G2.1 1250
             </a>
             home theater.
         </li>
         <li>
             I have an
-            <a href="https://ark.intel.com/content/www/en/en/ark/products/199271/intel-core-i5-10400-processor-12m-cache-up-to-4-30-ghz.html"
+            <a href="https://www.sceptre.com/Monitors/UltraWide/C305B-200UN-30-Curved-Monitor-product1134category12category95.html"
                 target="_blank">
                 Sceptre 30-inch Curved Gaming Monitor
             </a>
@@ -188,6 +188,16 @@ description: This page contains a list of all the hardware I own and all the sof
         </li>
         <li>
             I also like to change headphones depending on the case, when I need more concentration I use the HP Gaming Headset H300.
+        </li>
+        <li>
+            I write with a <a href="https://www.redragonzone.com/products/redragonk556">Redragon K556 RGB Mechanical Gaming Keyboard</a> with which I feel very comfortable while programming or playing, because of its not so big size it allows me to have more space to move the mouse.
+        </li>
+        <li>
+            To move the pointer I use a <a href="https://www2.razer.com/gaming-mice/razer-deathadder-elite">Razer Deathadder Elite</a> with 16,000 dpi precision, so that I don't miss any of the few clicks I make with it while programming.
+        </li>
+        <li>
+            Finally, to give a more RGB touch to my setup I have a <a href="https://www2.razer.com/gaming-mouse-mats/razer-goliathus-chroma">Razer Goliathus Extended Chroma Gaming Mouse Mat</a>.
+            To position the keyboard and the mouse on the same mouse pad, I think it gives it a nice gaming touch as I like it.
         </li>
     </ul>
 </section>

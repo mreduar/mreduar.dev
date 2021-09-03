@@ -2,6 +2,9 @@ window.axios = require('axios');
 import Vue from 'vue';
 import Search from './components/Search.vue';
 import hljs from 'highlight.js/lib/core';
+import * as particlesJson from './particles-config'
+import {tsParticles} from "tsparticles";
+
 
 // Syntax highlighting
 hljs.registerLanguage('bash', require('highlight.js/lib/languages/bash'));
@@ -17,6 +20,8 @@ hljs.registerLanguage('yaml', require('highlight.js/lib/languages/yaml'));
 document.querySelectorAll('pre code').forEach((block) => {
     hljs.highlightBlock(block);
 });
+
+tsParticles.load('body', particlesJson);
 
 Vue.config.productionTip = false;
 

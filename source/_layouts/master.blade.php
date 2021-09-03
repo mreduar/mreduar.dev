@@ -28,7 +28,7 @@
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
     </head>
 
-    <body class="flex flex-col justify-between min-h-screen bg-darker text-cream-light leading-normal font-sans">
+    <body id="body" class="flex flex-col justify-between min-h-screen bg-darker text-cream-light leading-normal font-sans">
         <nav class="flex items-center shadow bg-gradient-to-r from-blacked to-darker h-24 py-4"
             role="banner">
             <div class="container flex items-center max-w-8xl mx-auto px-4 lg:px-8">

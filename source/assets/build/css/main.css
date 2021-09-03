@@ -23366,6 +23366,11 @@ pre code {
   transition: all .5s ease-out;
 }
 
+.tsparticles-canvas-el {
+  position: fixed;
+  z-index: -1;
+}
+
 @media (min-width: 640px){
   .sm\:container{
     width: 100%;
