@@ -498,7 +498,7 @@ ul {
  */
 
 html {
-  font-family: Nunito Sans; /* 1 */
+  font-family: Gilroy__subset, Gilroy, Nunito Sans; /* 1 */
   line-height: 1.5; /* 2 */
 }
 
@@ -11439,7 +11439,7 @@ pre code {
 }
 
 .font-sans{
-  font-family: Nunito Sans;
+  font-family: Gilroy__subset, Gilroy, Nunito Sans;
 }
 
 .font-serif{
@@ -33829,7 +33829,7 @@ pre code {
   }
 
   .sm\:font-sans{
-    font-family: Nunito Sans;
+    font-family: Gilroy__subset, Gilroy, Nunito Sans;
   }
 
   .sm\:font-serif{
@@ -56146,7 +56146,7 @@ pre code {
   }
 
   .md\:font-sans{
-    font-family: Nunito Sans;
+    font-family: Gilroy__subset, Gilroy, Nunito Sans;
   }
 
   .md\:font-serif{
@@ -78463,7 +78463,7 @@ pre code {
   }
 
   .lg\:font-sans{
-    font-family: Nunito Sans;
+    font-family: Gilroy__subset, Gilroy, Nunito Sans;
   }
 
   .lg\:font-serif{
@@ -100780,7 +100780,7 @@ pre code {
   }
 
   .xl\:font-sans{
-    font-family: Nunito Sans;
+    font-family: Gilroy__subset, Gilroy, Nunito Sans;
   }
 
   .xl\:font-serif{

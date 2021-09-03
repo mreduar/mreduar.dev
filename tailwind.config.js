@@ -19,11 +19,11 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: [
-          'Nunito Sans'
+          'Gilroy__subset', 'Gilroy', 'Nunito Sans'
         ],
         mono: [
           'monospace',
-        ],
+        ]
       },
       lineHeight: {
         normal: '1.6',

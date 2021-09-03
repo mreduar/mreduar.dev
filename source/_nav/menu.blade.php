@@ -9,6 +9,11 @@
         About
     </a>
 
+    <a title="{{ $page->siteName }} Uses" href="/uses"
+        class="ml-6 text-cream-light hover:text-blue-600 {{ $page->isActive('/uses') ? 'active text-blue-600' : '' }}">
+        Uses
+    </a>
+
     <a title="{{ $page->siteName }} Contact" href="/contact"
         class="ml-6 text-cream-light hover:text-blue-600 {{ $page->isActive('/contact') ? 'active text-blue-600' : '' }}">
         Contact
