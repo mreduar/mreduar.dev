@@ -4,6 +4,21 @@
     <img src="/assets/images/me.jpg" alt="Welcome to {{ $page->siteName }}" class="mx-auto rounded-full w-1/4 md:w-1/6 lg:w-1/12">
     <h1>Hey, I'm Eduar.</h1>
     <p class="b30">I’m an experienced PHP and Laravel developer<br>with a deep interest in modern web development...</p>
+    <div class="justify-center flex py-3 text-white">
+        <a href="https://twitter.com/mreduar" target="_blank" rel="noopener noreferrer">
+            <img src="./assets/img/twitter.svg" alt="twitter" class="hover:bg-indigo-800 mx-2 p-2 rounded-xl">
+        </a>
+        <a href="https://github.com/mreduar" target="_blank" rel="noopener noreferrer">
+            <img src="./assets/img/github.svg" alt="github" class="hover:bg-indigo-800 mx-2 p-2 rounded-xl">
+        </a>
+        <a href="https://www.linkedin.com/in/mreduar/" target="_blank" rel="noopener noreferrer">
+            <img src="./assets/img/linkedin.svg" alt="linkedin" class="hover:bg-indigo-800 mx-2 p-2 rounded-xl">
+        </a>
+        <a href="https://www.instagram.com/mreduar/" target="_blank" rel="noopener noreferrer">
+            <img src="./assets/img/instagram.svg" alt="instagram" class="hover:bg-indigo-800 mx-2 p-2 rounded-xl">
+        </a>
+    </div>
+
     <a href="/about" class="mt-8 inline-block bg-indigo-900 hover:bg-indigo-800 text-white hover:text-white antialiased text-light-purple font-bold text-sm px-8 py-3 no-underline rounded-full leading-none hover:translateY-1px transition-1s">
         More about me.
     </a>
