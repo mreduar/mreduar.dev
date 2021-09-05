@@ -1,3 +1,7 @@
+---
+title: "404 Error"
+permalink: 404.html
+---
 @extends('_layouts.master')
 
 @section('body')
