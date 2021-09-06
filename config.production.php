@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'baseUrl' => '',
+    'baseUrl' => 'https://mreduar.dev',
     'production' => true,
 ];
