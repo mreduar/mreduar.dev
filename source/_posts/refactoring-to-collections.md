@@ -4,7 +4,7 @@ section: content
 title: Refactoring to Laravel Collections
 date: 2020-08-31
 description: How you can avoid loops by using collections. It sounds great from the beginning but you need to practice it in order to be able to use it in your own projects..
-categories: [tips]
+categories: [tips, refactoring]
 ---
 
 How you can avoid loops by using collections. It sounds great from the beginning but you need to practice it in order to be able to use it in your own projects..

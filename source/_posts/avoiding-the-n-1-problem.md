@@ -4,7 +4,7 @@ section: content
 title: Avoiding the N+1 problem in Laravel
 date: 2020-09-02
 description: How you can avoid loops by using collections. It sounds great from the beginning but you need to practice it in order to be able to use it in your own projects..
-categories: [tips]
+categories: [tips, refactoring]
 ---
 
 Let's do some piggybacking on our code from [Tip #1](/blog/refactoring-to-collections).
