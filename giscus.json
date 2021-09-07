@@ -1,0 +1,8 @@
+{
+  "origins": [
+    "https://mreduar.dev"
+  ],
+  "originsRegex": [
+    "http:\/\/localhost:[0-9]+"
+  ]
+}

@@ -1,16 +1,15 @@
-<div id="disqus_thread"></div>
-<script>
-    var disqus_config = function () {
-        this.page.url = '{{ $page->getUrl() }}';
-        this.page.identifier = '{{ $page->getFilename() }}';
-    };
-    (function() {
-        var d = document, s = d.createElement('script');
-        s.src = 'https://{{ $page->services->disqus }}.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
+<script src="https://giscus.app/client.js"
+        data-repo="mreduar/mreduar.dev"
+        data-repo-id="MDEwOlJlcG9zaXRvcnk0MDEwNzcyMzc="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOF-fz9c4B-9iL"
+        data-mapping="pathname"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-theme="dark_dimmed"
+        crossorigin="anonymous"
+        async>
 </script>
 <noscript>
-    Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+    Please enable JavaScript to view the comments.</a>
 </noscript>
