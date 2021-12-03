@@ -20,7 +20,7 @@ description: Get in touch with us
             </label>
 
             <input type="text" id="contact-name" placeholder="Jane Doe" name="name"
-                class="block w-full border shadow rounded-lg outline-none mb-2 px-4 py-3" required>
+                class="block w-full border shadow rounded-lg outline-none mb-2 px-4 py-3 text-black" required>
         </div>
 
         <div class="w-full px-3 md:w-1/2">
@@ -29,7 +29,7 @@ description: Get in touch with us
             </label>
 
             <input type="email" id="contact-email" placeholder="email@domain.com" name="email"
-                class="block w-full border shadow rounded-lg outline-none mb-2 px-4 py-3" required>
+                class="block w-full border shadow rounded-lg outline-none mb-2 px-4 py-3 text-black" required>
         </div>
     </div>
 
@@ -39,13 +39,14 @@ description: Get in touch with us
         </label>
 
         <textarea id="contact-message" rows="4" name="message"
-            class="block w-full border shadow rounded-lg outline-none appearance-none mb-2 px-4 py-3"
+            class="block w-full border shadow rounded-lg outline-none appearance-none mb-2 px-4 py-3 text-black"
             placeholder="A lovely message here." required></textarea>
     </div>
 
     <div class="flex justify-end w-full">
-        <input type="submit" value="Submit"
-            class="block bg-indigo-900 hover:bg-indigo-800 text-white text-sm font-semibold leading-snug tracking-wide uppercase shadow rounded-lg cursor-pointer px-6 py-3">
+        <button type="submit" class="block bg-indigo-900 hover:bg-indigo-800 text-white text-sm font-semibold leading-snug tracking-wide uppercase shadow rounded-lg cursor-pointer px-6 py-3">
+            Submit
+        </button>
     </div>
 </form>
 @stop
