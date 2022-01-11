@@ -184,9 +184,9 @@ If you want to get the source code for this example you can find it here.
 https://github.com/mreduar/whats-hot-algorithm-with-laravel
 
 ### Extra Pointers.
-- Your vote buttons should send off an Ajax request instead of redirecting the user or reloading the page. Websites like Youtube and Reddit have conditioned users to believe that their vote is in “real time.” Sending Ajax requests is extremely easy with JavaScript libraries such as JQuery.
-- If performance is a concern, be sure to read up on indexes. You might also want to look into the possibility of using an object caching daemon such as Memcached.
-- To prevent the user from voting multiple times, you should store votes against the User’s ID. There are other methods of preventing vote rigging, but they fall outside the scope of this article.
+- Your vote buttons should send off an Ajax request instead of redirecting the user or reloading the page. Websites like Youtube and Reddit have conditioned users to believe that their vote is in “real time.” Sending Ajax requests is extremely easy with JavaScript libraries such as axios.
+- If performance is a concern, be sure to read up on [indexes](https://dev.mysql.com/doc/refman/5.7/en/mysql-indexes.html). You might also want to look into the possibility of using an [object caching daemon](https://laravel.com/docs/8.x/cache) such as [Memcached](https://memcached.org/) or [Redis](https://redis.io/).
+- To prevent the user from voting multiple times, you should store votes against the User's ID. There are other methods of preventing vote rigging, but they fall outside the scope of this article.
 
 
 If you have any questions or concerns, feel free to post them in the comment section below.
