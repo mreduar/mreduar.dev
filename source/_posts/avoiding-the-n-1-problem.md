@@ -2,7 +2,7 @@
 extends: _layouts.post
 section: content
 title: Avoiding the N+1 problem in Laravel
-date: 2020-09-02
+date: 2021-09-02
 description: How you can avoid loops by using collections. It sounds great from the beginning but you need to practice it in order to be able to use it in your own projects..
 categories: [tips, refactoring]
 ---

@@ -2,7 +2,7 @@
 extends: _layouts.post
 section: content
 title: Refactoring to whereRelation method
-date: 2020-09-07
+date: 2021-09-07
 description: How you can avoid loops by using collections. It sounds great from the beginning but you need to practice it in order to be able to use it in your own projects..
 categories: [tips, refactoring]
 ---
