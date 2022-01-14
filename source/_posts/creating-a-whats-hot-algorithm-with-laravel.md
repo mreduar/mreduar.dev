@@ -5,6 +5,8 @@ title: Creating a "what's hot" Reddit algorithm with Laravel
 date: 2022-01-09
 description: This is a small guide on how to implement a Reddit-style "what's hot" algorithm with Laravel Framework.
 categories: [tips, tutorials, mysql]
+featured: true
+cover_image: /assets/img/posts/creating-a-whats-hot-algorithm-with-laravel.png
 ---
 
 This is a small guide on how to implement a Reddit-style "what's hot" algorithm with Laravel Frameowrk.
@@ -74,7 +76,16 @@ Video::orderByRaw('
     (UNIX_TIMESTAMP(created_at) / 300000) DESC
 ')->limit(100)->get();
 ```
-As you can see, the algorithm is implemented in the orderByRaw method and we've limited the results to 100. Let's quickly create a seeder together with a factory to fill our video table:
+As you can see, the algorithm is implemented in the `orderByRaw` method and we've limited the results to 100.
+Let's explain a little bit how the sorting algorithm works.
+
+- First, we use `LOG10()` to obtain the logarithm of the absolute value of the difference between `thumbs_up` and `thumbs_down`. This is because we want to sort the videos by their "hotness" score (i.e. how popular they are).
+- The "hotness" score is calculated by taking the logarithm of the absolute value of the difference between `thumbs_up` and `thumbs_down`. The sign of the difference is used to determine whether `thumbs_up` or `thumbs_down` is the most popular.
+- The `UNIX_TIMESTAMP()` function is used to determine the age of the video. Since `UNIX_TIMESTAMP(created_at)` will give a very large number (seconds elapsed since January 1st, 1970) adding the other operations will mean nothing, so it is divided by 300000 to make the age of the video more meaningful in the equation, It could also be useful to multiply `thumbs_up` and `thumbs_down` by a large number such as 86400 which is the multiplication of 24 hours * 60 minutes * 60 seconds. This is because videos created less than a minute ago are more significant than videos created more than a minute ago.
+- Finally, we use the `SIGN()` function to determine whether `thumbs_up` or `thumbs_down` is the most popular.
+
+
+Let's quickly create a seeder together with a factory to fill our video table:
 
 ```php
 <?php
