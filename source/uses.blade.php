@@ -156,9 +156,9 @@ description: This page contains a list of all the hardware I own and all the sof
                 <span>It is a great tool for quickly testing ideas or isolating a method for debugging, all within the
                     context of a real application.</span>
                 <div class="overflow-hidden rounded-lg shadow-xl md:mx-24"
-                    style="-webkit-mask-image: -webkit-gradient(linear, left 50%, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)))">
+                    style="-webkit-mask-image: -webkit-gradient(linear, left 75%, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)))">
                     <video playsinline="" autoplay="" muted="" loop="" class="max-w-130 md:max-w-full">
-                        <source src="https://tinkerwell.app/videos/hero.mp4" type="video/mp4">
+                        <source src="/assets/videos/tip-top-tinker-tool.mp4" type="video/mp4">
                     </video>
                 </div>
             </li>
