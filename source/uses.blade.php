@@ -71,27 +71,62 @@ description: This page contains a list of all the hardware I own and all the sof
                     </summary>
                     <div>
                         <ul>
-                            <li><a href="https://marketplace.visualstudio.com/items?itemName=austenc.laravel-docs">Laravel Docs</a></li>
-                            <li><a href="https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel5-snippets">Laravel Snippets</a></li>
-                            <li><a href="https://marketplace.visualstudio.com/items?itemName=ahinkle.laravel-model-snippets">Laravel Model Snippets</a></li>
-                            <li><a href="https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-blade">Laravel Blade Snippets</a></li>
-                            <li><a href="https://marketplace.visualstudio.com/items?itemName=codingyu.laravel-goto-view">Laravel goto view</a></li>
-                            <li><a href="https://marketplace.visualstudio.com/items?itemName=calebporzio.better-phpunit">Better PHPUnit</a></li>
-                            <li><a href="https://marketplace.visualstudio.com/items?itemName=junstyle.php-cs-fixer">php cs fixer</a></li>
-                            <li><a href="https://marketplace.visualstudio.com/items?itemName=wongjn.php-sniffer">PHP Sniffer</a></li>
-                            <li><a href="https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode">Prettier</a></li>
-                            <li><a href="https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint">ESLint</a></li>
-                            <li><a href="https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss">Tailwind CSS IntelliSense</a></li>
-                            <li><a href="https://marketplace.visualstudio.com/items?itemName=austenc.tailwind-docs">Tailwind Docs</a></li>
-                            <li><a href="https://marketplace.visualstudio.com/items?itemName=neilbrayfield.php-docblocker">PHP DocBlocker</a></li>
-                            <li><a href="https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets">ES7 React/Redux/GraphQL/React-Native snippets</a></li>
-                            <li><a href="https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv">DotENV</a></li>
-                            <li><a href="https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap">CodeSnap</a></li>
-                            <li><a href="https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag">Auto Rename Tag</a></li>
-                            <li><a href="https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client">PHP Intelephense</a></li>
-                            <li><a href="https://marketplace.visualstudio.com/items?itemName=GitHub.copilot">GitHub Copilot</a></li>
-                            <li><a href="https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-community-material-theme">Community Material Theme</a></li>
-                            <li><a href="https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons">vscode-icons</a></li>
+                            <li><a href="https://marketplace.visualstudio.com/items?itemName=austenc.laravel-docs">Laravel
+                                    Docs</a></li>
+                            <li><a
+                                    href="https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel5-snippets">Laravel
+                                    Snippets</a></li>
+                            <li><a
+                                    href="https://marketplace.visualstudio.com/items?itemName=ahinkle.laravel-model-snippets">Laravel
+                                    Model Snippets</a></li>
+                            <li><a href="https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-blade">Laravel
+                                    Blade Snippets</a></li>
+                            <li><a
+                                    href="https://marketplace.visualstudio.com/items?itemName=codingyu.laravel-goto-view">Laravel
+                                    goto view</a></li>
+                            <li><a
+                                    href="https://marketplace.visualstudio.com/items?itemName=calebporzio.better-phpunit">Better
+                                    PHPUnit</a></li>
+                            <li><a href="https://marketplace.visualstudio.com/items?itemName=junstyle.php-cs-fixer">php
+                                    cs fixer</a></li>
+                            <li><a href="https://marketplace.visualstudio.com/items?itemName=wongjn.php-sniffer">PHP
+                                    Sniffer</a></li>
+                            <li><a
+                                    href="https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode">Prettier</a>
+                            </li>
+                            <li><a
+                                    href="https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint">ESLint</a>
+                            </li>
+                            <li><a href="https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss">Tailwind
+                                    CSS IntelliSense</a></li>
+                            <li><a href="https://marketplace.visualstudio.com/items?itemName=austenc.tailwind-docs">Tailwind
+                                    Docs</a></li>
+                            <li><a
+                                    href="https://marketplace.visualstudio.com/items?itemName=neilbrayfield.php-docblocker">PHP
+                                    DocBlocker</a></li>
+                            <li><a
+                                    href="https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets">ES7
+                                    React/Redux/GraphQL/React-Native snippets</a></li>
+                            <li><a
+                                    href="https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv">DotENV</a>
+                            </li>
+                            <li><a
+                                    href="https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap">CodeSnap</a>
+                            </li>
+                            <li><a
+                                    href="https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag">Auto
+                                    Rename Tag</a></li>
+                            <li><a
+                                    href="https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client">PHP
+                                    Intelephense</a></li>
+                            <li><a href="https://marketplace.visualstudio.com/items?itemName=GitHub.copilot">GitHub
+                                    Copilot</a></li>
+                            <li><a
+                                    href="https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-community-material-theme">Community
+                                    Material Theme</a></li>
+                            <li><a
+                                    href="https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons">vscode-icons</a>
+                            </li>
                         </ul>
                     </div>
                 </details>
@@ -103,11 +138,12 @@ description: This page contains a list of all the hardware I own and all the sof
                         d="M0 3a2 2 0 012-2h12a2 2 0 012 2v10a2 2 0 01-2 2H2a2 2 0 01-2-2V3zm9.5 5.5h-3a.5.5 0 000 1h3a.5.5 0 000-1zm-6.354-.354L4.793 6.5 3.146 4.854a.5.5 0 11.708-.708l2 2a.5.5 0 010 .708l-2 2a.5.5 0 01-.708-.708z"
                         clip-rule="evenodd"></path>
                 </svg>
-                <a href="https://cmder.net/" target="_blank" rel="noopener noreferrer">cmder</a>
+                <a href="https://github.com/microsoft/terminal" target="_blank" rel="noopener noreferrer">Windows
+                    Terminal</a> + Bash:
                 <span>
-                    A good, highly customizable console that includes many unix commands for Windows out of the box.
+                    A good, highly customizable console that includes many unix commands out of the box.
                 </span>
-                <img src="/assets/images/cmder.png" alt="cmder console for windows" class="md:w-2/3 mx-auto my-3">
+                <img src="/assets/images/terminal.png" alt="Windows Terminal" class="md:w-2/3 mx-auto my-3">
             </li>
             <li>
                 <svg class="inline-block" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
@@ -119,6 +155,12 @@ description: This page contains a list of all the hardware I own and all the sof
                 <a href="https://tinkerwell.app/" target="_blank" rel="noopener noreferrer">Tinkerwell</a>
                 <span>It is a great tool for quickly testing ideas or isolating a method for debugging, all within the
                     context of a real application.</span>
+                <div class="overflow-hidden rounded-lg shadow-xl md:mx-24"
+                    style="-webkit-mask-image: -webkit-gradient(linear, left 50%, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)))">
+                    <video playsinline="" autoplay="" muted="" loop="" class="max-w-130 md:max-w-full">
+                        <source src="https://tinkerwell.app/videos/hero.mp4" type="video/mp4">
+                    </video>
+                </div>
             </li>
         </ul>
     </div>
@@ -150,7 +192,8 @@ description: This page contains a list of all the hardware I own and all the sof
                     preserveAspectRatio="xMinYMin meet">
                     <path
                         d="M251.172 116.594L139.4 4.828c-6.433-6.437-16.873-6.437-23.314 0l-23.21 23.21 29.443 29.443c6.842-2.312 14.688-.761 20.142 4.693 5.48 5.489 7.02 13.402 4.652 20.266l28.375 28.376c6.865-2.365 14.786-.835 20.269 4.657 7.663 7.66 7.663 20.075 0 27.74-7.665 7.666-20.08 7.666-27.749 0-5.764-5.77-7.188-14.235-4.27-21.336l-26.462-26.462-.003 69.637a19.82 19.82 0 0 1 5.188 3.71c7.663 7.66 7.663 20.076 0 27.747-7.665 7.662-20.086 7.662-27.74 0-7.663-7.671-7.663-20.086 0-27.746a19.654 19.654 0 0 1 6.421-4.281V94.196a19.378 19.378 0 0 1-6.421-4.281c-5.806-5.798-7.202-14.317-4.227-21.446L81.47 39.442l-76.64 76.635c-6.44 6.443-6.44 16.884 0 23.322l111.774 111.768c6.435 6.438 16.873 6.438 23.316 0l111.251-111.249c6.438-6.44 6.438-16.887 0-23.324"
-                        fill="#fff" /></svg>
+                        fill="#fff" />
+                </svg>
                 <a href="https://www.google.com/chrome/" target="_blank" rel="noopener noreferrer">Git</a>
                 <span>Duh.</span>
             </li>
