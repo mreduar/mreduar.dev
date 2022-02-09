@@ -106,41 +106,20 @@ p {
 }
 
 pre {
-    @apply .bg-pre;
-    @apply .leading-loose;
-    @apply .my-6;
-    @apply .overflow-x-auto;
-    @apply .p-4;
-    @apply .rounded;
-    @apply .shadow;
-    @apply .text-base;
-
-    code {
-        @apply .bg-transparent;
-        @apply .block;
-        @apply .p-0;
-    }
+    @apply my-4 rounded overflow-x-auto;
 }
 
-
-code {
-    @apply .bg-indigo-800;
-    @apply .px-2;
-    @apply .py-px;
-    @apply .rounded;
-    @apply .text-sm;
+pre code.torchlight {
+    @apply block py-4;
 }
 
-code.hljs {
-    @apply .bg-transparent;
-    @apply .p-0;
+pre code.torchlight .line {
+    @apply px-4;
+}
 
-    .hljs-comment,
-    .hljs-keyword,
-    .hljs-meta {
-        @apply .font-normal;
-        @apply .not-italic;
-    }
+pre code.torchlight .line-number,
+pre code.torchlight .summary-caret {
+    @apply mr-4;
 }
 
 ::selection {

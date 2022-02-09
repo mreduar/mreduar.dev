@@ -78,10 +78,14 @@
                     &copy; <a href="/" title="MrEduar">MrEduar</a> {{ date('Y') }}.
                 </li>
 
-                <li>
+                <li class="md:mr-2">
                     Built with <a href="http://jigsaw.tighten.co" title="Jigsaw by Tighten">Jigsaw</a>
                     and <a href="https://tailwindcss.com" title="Tailwind CSS, a utility-first CSS framework">Tailwind
                         CSS</a>.
+                </li>
+
+                <li>
+                    Code highlighting provided by <a href="https://torchlight.dev/" title="Jigsaw by Tighten">Torchlight</a>
                 </li>
             </ul>
         </footer>
