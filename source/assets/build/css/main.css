@@ -753,6 +753,7 @@ pre code.torchlight {
   display: block;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  font-size: .8rem;
 }
 
 pre code.torchlight .line {
