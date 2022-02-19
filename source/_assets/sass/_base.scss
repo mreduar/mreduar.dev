@@ -105,6 +105,14 @@ p {
     }
 }
 
+code {
+    @apply .bg-indigo-800;
+    @apply .px-2;
+    @apply .py-px;
+    @apply .rounded;
+    @apply .text-sm;
+}
+
 pre {
     @apply my-4 rounded overflow-x-auto;
 }

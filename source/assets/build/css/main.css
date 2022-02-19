@@ -742,6 +742,18 @@ p {
   }
 }
 
+code {
+  --bg-opacity: 1;
+  background-color: #434190;
+  background-color: rgba(67, 65, 144, var(--bg-opacity));
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border-radius: 0.25rem;
+  font-size: .925rem;
+}
+
 pre {
   margin-top: 1rem;
   margin-bottom: 1rem;
