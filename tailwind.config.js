@@ -57,7 +57,7 @@ module.exports = {
       ...theme('colors'),
       'darker': '#222831',
       'blue-mr': '#1c7ad8',
-      'pre': '#1A1D24',
+      'pre': '#292D3E',
     }),
     textColor: theme => ({
       ...theme('colors'),

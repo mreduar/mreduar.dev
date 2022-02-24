@@ -114,7 +114,7 @@ code {
 }
 
 pre {
-    @apply my-4 rounded overflow-x-auto;
+    @apply my-4 rounded overflow-x-auto bg-pre;
 }
 
 pre code.torchlight {

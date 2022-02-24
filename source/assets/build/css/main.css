@@ -759,6 +759,9 @@ pre {
   margin-bottom: 1rem;
   border-radius: 0.25rem;
   overflow-x: auto;
+  --bg-opacity: 1;
+  background-color: #292D3E;
+  background-color: rgba(41, 45, 62, var(--bg-opacity));
 }
 
 pre code.torchlight {
@@ -2736,8 +2739,8 @@ pre code.torchlight .summary-caret {
 
 .bg-pre {
   --bg-opacity: 1;
-  background-color: #1A1D24;
-  background-color: rgba(26, 29, 36, var(--bg-opacity));
+  background-color: #292D3E;
+  background-color: rgba(41, 45, 62, var(--bg-opacity));
 }
 
 .hover\:bg-transparent:hover {
@@ -3314,8 +3317,8 @@ pre code.torchlight .summary-caret {
 
 .hover\:bg-pre:hover {
   --bg-opacity: 1;
-  background-color: #1A1D24;
-  background-color: rgba(26, 29, 36, var(--bg-opacity));
+  background-color: #292D3E;
+  background-color: rgba(41, 45, 62, var(--bg-opacity));
 }
 
 .focus\:bg-transparent:focus {
@@ -3892,8 +3895,8 @@ pre code.torchlight .summary-caret {
 
 .focus\:bg-pre:focus {
   --bg-opacity: 1;
-  background-color: #1A1D24;
-  background-color: rgba(26, 29, 36, var(--bg-opacity));
+  background-color: #292D3E;
+  background-color: rgba(41, 45, 62, var(--bg-opacity));
 }
 
 .bg-none {
@@ -25131,8 +25134,8 @@ pre code.torchlight .summary-caret {
 
   .sm\:bg-pre {
     --bg-opacity: 1;
-    background-color: #1A1D24;
-    background-color: rgba(26, 29, 36, var(--bg-opacity));
+    background-color: #292D3E;
+    background-color: rgba(41, 45, 62, var(--bg-opacity));
   }
 
   .sm\:hover\:bg-transparent:hover {
@@ -25709,8 +25712,8 @@ pre code.torchlight .summary-caret {
 
   .sm\:hover\:bg-pre:hover {
     --bg-opacity: 1;
-    background-color: #1A1D24;
-    background-color: rgba(26, 29, 36, var(--bg-opacity));
+    background-color: #292D3E;
+    background-color: rgba(41, 45, 62, var(--bg-opacity));
   }
 
   .sm\:focus\:bg-transparent:focus {
@@ -26287,8 +26290,8 @@ pre code.torchlight .summary-caret {
 
   .sm\:focus\:bg-pre:focus {
     --bg-opacity: 1;
-    background-color: #1A1D24;
-    background-color: rgba(26, 29, 36, var(--bg-opacity));
+    background-color: #292D3E;
+    background-color: rgba(41, 45, 62, var(--bg-opacity));
   }
 
   .sm\:bg-none {
@@ -47448,8 +47451,8 @@ pre code.torchlight .summary-caret {
 
   .md\:bg-pre {
     --bg-opacity: 1;
-    background-color: #1A1D24;
-    background-color: rgba(26, 29, 36, var(--bg-opacity));
+    background-color: #292D3E;
+    background-color: rgba(41, 45, 62, var(--bg-opacity));
   }
 
   .md\:hover\:bg-transparent:hover {
@@ -48026,8 +48029,8 @@ pre code.torchlight .summary-caret {
 
   .md\:hover\:bg-pre:hover {
     --bg-opacity: 1;
-    background-color: #1A1D24;
-    background-color: rgba(26, 29, 36, var(--bg-opacity));
+    background-color: #292D3E;
+    background-color: rgba(41, 45, 62, var(--bg-opacity));
   }
 
   .md\:focus\:bg-transparent:focus {
@@ -48604,8 +48607,8 @@ pre code.torchlight .summary-caret {
 
   .md\:focus\:bg-pre:focus {
     --bg-opacity: 1;
-    background-color: #1A1D24;
-    background-color: rgba(26, 29, 36, var(--bg-opacity));
+    background-color: #292D3E;
+    background-color: rgba(41, 45, 62, var(--bg-opacity));
   }
 
   .md\:bg-none {
@@ -69765,8 +69768,8 @@ pre code.torchlight .summary-caret {
 
   .lg\:bg-pre {
     --bg-opacity: 1;
-    background-color: #1A1D24;
-    background-color: rgba(26, 29, 36, var(--bg-opacity));
+    background-color: #292D3E;
+    background-color: rgba(41, 45, 62, var(--bg-opacity));
   }
 
   .lg\:hover\:bg-transparent:hover {
@@ -70343,8 +70346,8 @@ pre code.torchlight .summary-caret {
 
   .lg\:hover\:bg-pre:hover {
     --bg-opacity: 1;
-    background-color: #1A1D24;
-    background-color: rgba(26, 29, 36, var(--bg-opacity));
+    background-color: #292D3E;
+    background-color: rgba(41, 45, 62, var(--bg-opacity));
   }
 
   .lg\:focus\:bg-transparent:focus {
@@ -70921,8 +70924,8 @@ pre code.torchlight .summary-caret {
 
   .lg\:focus\:bg-pre:focus {
     --bg-opacity: 1;
-    background-color: #1A1D24;
-    background-color: rgba(26, 29, 36, var(--bg-opacity));
+    background-color: #292D3E;
+    background-color: rgba(41, 45, 62, var(--bg-opacity));
   }
 
   .lg\:bg-none {
@@ -92082,8 +92085,8 @@ pre code.torchlight .summary-caret {
 
   .xl\:bg-pre {
     --bg-opacity: 1;
-    background-color: #1A1D24;
-    background-color: rgba(26, 29, 36, var(--bg-opacity));
+    background-color: #292D3E;
+    background-color: rgba(41, 45, 62, var(--bg-opacity));
   }
 
   .xl\:hover\:bg-transparent:hover {
@@ -92660,8 +92663,8 @@ pre code.torchlight .summary-caret {
 
   .xl\:hover\:bg-pre:hover {
     --bg-opacity: 1;
-    background-color: #1A1D24;
-    background-color: rgba(26, 29, 36, var(--bg-opacity));
+    background-color: #292D3E;
+    background-color: rgba(41, 45, 62, var(--bg-opacity));
   }
 
   .xl\:focus\:bg-transparent:focus {
@@ -93238,8 +93241,8 @@ pre code.torchlight .summary-caret {
 
   .xl\:focus\:bg-pre:focus {
     --bg-opacity: 1;
-    background-color: #1A1D24;
-    background-color: rgba(26, 29, 36, var(--bg-opacity));
+    background-color: #292D3E;
+    background-color: rgba(41, 45, 62, var(--bg-opacity));
   }
 
   .xl\:bg-none {
