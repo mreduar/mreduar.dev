@@ -2,4 +2,3 @@
 
 command = "npm run prod"
 publish = "build_production"
-environment = { PHP_VERSION = "8.1.2" }
