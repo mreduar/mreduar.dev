@@ -87,6 +87,9 @@ description: This page contains a list of all the hardware I own and all the sof
                             <li><a
                                     href="https://marketplace.visualstudio.com/items?itemName=calebporzio.better-phpunit">Better
                                     PHPUnit</a></li>
+                            <li><a
+                                    href="https://marketplace.visualstudio.com/items?itemName=m1guelpf.better-pest">Better
+                                    Pest</a></li>
                             <li><a href="https://marketplace.visualstudio.com/items?itemName=junstyle.php-cs-fixer">php
                                     cs fixer</a></li>
                             <li><a href="https://marketplace.visualstudio.com/items?itemName=wongjn.php-sniffer">PHP
