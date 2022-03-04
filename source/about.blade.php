@@ -22,7 +22,7 @@ description: A little bit about me
     </p>
 
     <p class="mb-6">
-        Currently I work at Blockshift Network, a Venezuelan company dedicated to Marketing, Web Consulting, Mobile Application Development and Websites at national and international level.
+        Currently I work at ManyRequests, a SaaS that helps agency owners succeed by creating easy-to-use software to manage and grow their business..
     </p>
 
     <p>
