@@ -87,8 +87,7 @@ description: This page contains a list of all the hardware I own and all the sof
                             <li><a
                                     href="https://marketplace.visualstudio.com/items?itemName=calebporzio.better-phpunit">Better
                                     PHPUnit</a></li>
-                            <li><a
-                                    href="https://marketplace.visualstudio.com/items?itemName=m1guelpf.better-pest">Better
+                            <li><a href="https://marketplace.visualstudio.com/items?itemName=m1guelpf.better-pest">Better
                                     Pest</a></li>
                             <li><a href="https://marketplace.visualstudio.com/items?itemName=junstyle.php-cs-fixer">php
                                     cs fixer</a></li>
@@ -178,12 +177,8 @@ description: This page contains a list of all the hardware I own and all the sof
                 <span>My favorite API client to create, share, test and document APIs</span>
             </li>
             <li>
-                <a href="https://www.heidisql.com/" target="_blank" rel="noopener noreferrer">💾 HeidiSQL</a>
-                <span>As my favorite database client</span>
-            </li>
-            <li>
-                <a href="https://filezilla-project.org/" target="_blank" rel="noopener noreferrer">📁 Filezilla</a>
-                <span>To manage files by FTP from some clients</span>
+                <a href="https://tableplus.com/" target="_blank" rel="noopener noreferrer">💾 TablePlus</a>
+                <span>As my favorite database client, Database management made easy</span>
             </li>
             <li>
                 <a href="https://www.google.com/chrome/" target="_blank" rel="noopener noreferrer">🌏 Chrome</a>
@@ -209,8 +204,8 @@ description: This page contains a list of all the hardware I own and all the sof
         </h3>
         <ul class="pl-5 list-none">
             <li>
-                <a href="https://zoom.us/" target="_blank" rel="noopener noreferrer">📷 Zoom</a>
-                <span>For team or client meetings usually about 3 times a week.</span>
+                <a href="https://meet.google.com/" target="_blank" rel="noopener noreferrer">📷 Google Meet</a>
+                <span>For team meetings.</span>
             </li>
             <li>
                 <a href="https://telegram.org" target="_blank" rel="noopener noreferrer">✉️ Telegram</a>
@@ -241,7 +236,7 @@ description: This page contains a list of all the hardware I own and all the sof
                 <span>I listen to music every day to reach a state of maximum concentration.</span>
             </li>
             <li>
-                🗒 <a href="https://asana.com/" target="_blank" rel="noopener noreferrer">Asana</a>
+                🗒 <a href="https://www.atlassian.com/software/jira" target="_blank" rel="noopener noreferrer">Jira</a>
                 <span>To organize my work tasks with the whole team</span>
             </li>
             <li>
@@ -264,8 +259,9 @@ description: This page contains a list of all the hardware I own and all the sof
                 <span>To view designs created by customers.</span>
             </li>
             <li>
-                <a href="https://sentry.io/" target="_blank" rel="noopener noreferrer">🐛 Sentry</a>
-                <span>Tracks and reports bugs and errors.</span>
+                <a href="https://flareapp.io/" target="_blank" rel="noopener noreferrer">🐛 Flare</a>
+                <span>Flare is specifically built for Laravel error tracking. Think of Ignition—your local error page—in
+                    production. Track all your PHP and JavaScript errors in one place.</span>
             </li>
         </ul>
     </div>
