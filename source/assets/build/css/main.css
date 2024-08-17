@@ -1533,6 +1533,22 @@ pre code.torchlight .line .line-number,
     width: 66.666667%;
   }
 
+  .md\:w-2\/4 {
+    width: 50%;
+  }
+
+  .md\:w-1\/4 {
+    width: 25%;
+  }
+
+  .md\:w-48 {
+    width: 12rem;
+  }
+
+  .md\:w-80 {
+    width: 20rem;
+  }
+
   .md\:max-w-full {
     max-width: 100%;
   }

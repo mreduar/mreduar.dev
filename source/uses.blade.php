@@ -211,6 +211,7 @@ description: This page contains a list of all the hardware I own and all the sof
                 <li>
                     <a href="https://tableplus.com/" target="_blank" rel="noopener noreferrer">💾 TablePlus</a>
                     <span>As my favorite database client, Database management made easy</span>
+                    <img src="/assets/images/tableplus.webp" alt="TablePlus" class="md:w-2/3 mx-auto my-3">
                 </li>
                 <li>
                     <a href="https://www.google.com/chrome/" target="_blank" rel="noopener noreferrer">🌏 Chrome</a>
