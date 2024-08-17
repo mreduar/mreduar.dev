@@ -5,7 +5,7 @@ pagination:
     collection: posts
     perPage: 4
 ---
-@extends('_layouts.master')
+@extends('_layouts.main')
 
 @section('body')
     <h1>Blog</h1>
@@ -34,7 +34,7 @@ pagination:
                 <a
                     href="{{ $path }}"
                     title="Go to Page {{ $pageNumber }}"
-                    class="bg-gray-200 hover:bg-gray-400 rounded mr-3 px-5 py-3 {{ $pagination->currentPage == $pageNumber ? 'text-blue-600' : 'text-blue-700' }}"
+                    class="bg-gray-200 hover:bg-gray-400 rounded mr-3 px-5 py-3 {{ $pagination->currentPage == $pageNumber ? 'text-indigo-600' : 'text-indigo-700' }}"
                 >{{ $pageNumber }}</a>
             @endforeach
 

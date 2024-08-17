@@ -1,16 +1,12 @@
-window.axios = require('axios');
-import Vue from 'vue';
-import Search from './components/Search.vue';
-import * as particlesJson from './particles-config'
-import {tsParticles} from "tsparticles";
+window.axios = require("axios");
+import Alpine from "alpinejs";
+import Fuse from "fuse.js";
+import * as particlesJson from "./particles-config";
+import { tsParticles } from "tsparticles";
 
-tsParticles.load('body', particlesJson);
+tsParticles.load("body", particlesJson);
 
-Vue.config.productionTip = false;
+window.Fuse = Fuse;
+window.Alpine = Alpine;
 
-new Vue({
-    components: {
-        Search,
-    },
-}).$mount('#vue-search');
-
+Alpine.start();

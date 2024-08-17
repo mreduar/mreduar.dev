@@ -2,7 +2,7 @@
 title: "404 Error"
 permalink: 404.html
 ---
-@extends('_layouts.master')
+@extends('_layouts.main')
 
 @section('body')
     <div class="flex flex-col items-center text-gray-700 mt-32">

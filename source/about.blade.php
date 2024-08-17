@@ -2,7 +2,7 @@
 title: About
 description: A little bit about me
 ---
-@extends('_layouts.master')
+@extends('_layouts.main')
 
 @section('body')
     <h1>About</h1>

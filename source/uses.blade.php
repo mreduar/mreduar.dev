@@ -2,7 +2,7 @@
 title: Uses
 description: This page contains a list of all the hardware I own and all the software I use.
 ---
-@extends('_layouts.master')
+@extends('_layouts.main')
 
 @section('body')
 

@@ -1,4 +1,4 @@
-@extends('_layouts.master')
+@extends('_layouts.main')
 
 @section('header')
     <img src="/assets/images/me.jpg" alt="Welcome to {{ $page->siteName }}" class="mx-auto rounded-full w-1/4 md:w-1/6 lg:w-1/12">

@@ -1,0 +1,7 @@
+.nav-menu {
+    @apply bg-gray-200 pb-2 pt-6 px-2 shadow w-auto;
+}
+
+.nav-menu__item {
+    @apply block no-underline mb-4 mt-0 text-gray-800 text-sm;
+}
