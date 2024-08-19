@@ -3,7 +3,7 @@
     <div id="mc_embed_signup">
         <form action="https://gmail.us14.list-manage.com/subscribe/post?u=02a2ac09ace4e2be99b87a378&amp;id=c62fc1badc" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
             <div id="mc_embed_signup_scroll">
-                <h2>Sign up for our newsletter</h2>
+                <h2>Subscribe to my newsletter</h2>
                 <div class="mc-field-group">
                     <label for="mce-EMAIL">Email Address </label>
                     <input type="email" value="" name="EMAIL" class="required email text-gray-900" id="mce-EMAIL" placeholder="Email address">
