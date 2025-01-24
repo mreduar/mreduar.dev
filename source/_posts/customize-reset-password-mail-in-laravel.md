@@ -5,6 +5,7 @@ title: "Customize Reset Password Mail in Laravel"
 date: 2024-02-28
 description: "Laravel provides a simple way to customize the reset password mail. In this article, we will see how to customize the reset password mail in Laravel."
 categories: [tips]
+cover_image: /assets/img/posts/customize-reset-password-mail-in-laravel.webp
 ---
 
 Recently at my job, we encountered a feature that queues the reset password email, and I decided to create this post to demonstrate how easy it is to implement this and, at the same time, customize the content of the notification itself.
