@@ -50,7 +50,7 @@ We'll generalise first and then pivot to a concrete example:
 `Trip` ➜ hasMany ➜ `Coordinate`  
 `Coordinate` ➜ belongsTo ➜ `Trip`
 
-You can just as easily embed `latitude` and `longitude` directly on the primary model. The scope below works in either scenario; choosing a relation simply keeps the example laser-focused on nearest cars for a given trip.
+> You can just as easily embed `latitude` and `longitude` directly on the primary model. The scope below works in either scenario; choosing a relation simply keeps the example laser-focused on nearest cars for a given trip.
 
 ### The Scope
 

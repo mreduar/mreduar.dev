@@ -15,7 +15,7 @@ blockquote {
     @apply text-lg;
     @apply font-normal;
     @apply italic;
-    @apply text-gray-800;
+    @apply text-gray-300;
     @apply border-l-4;
     @apply border-blue-400;
 }
