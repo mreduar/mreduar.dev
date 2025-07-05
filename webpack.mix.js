@@ -10,6 +10,7 @@ mix.js('source/_assets/js/main.js', 'js')
         require('tailwindcss/nesting'),
         require('tailwindcss'),
     ])
+    .copy('node_modules/katex/dist/fonts', 'source/assets/build/css/fonts')
     .jigsaw({
         watch: ['config.php', 'source/**/*.md', 'source/**/*.php', 'source/**/*.scss'],
     })

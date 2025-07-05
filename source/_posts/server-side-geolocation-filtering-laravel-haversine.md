@@ -20,6 +20,24 @@ Below you'll find a drop-in scope that mirrors the code sample you shared, plus 
 
 **Vendor-agnostic.** Works in MySQL, MariaDB, Postgres, SQL Server—anything that supports basic trig functions.
 
+### The Math — Haversine Engine, No Mystery
+
+The **Haversine formula** gives the great-circle distance between two points on a sphere:
+
+<div class="math display-math">
+d = 2r \arcsin\left(\sqrt{\sin^2\left(\frac{\Delta\varphi}{2}\right) + \cos\varphi_1 \cos\varphi_2 \sin^2\left(\frac{\Delta\lambda}{2}\right)}\right)
+</div>
+
+**Where:**
+
+- <span class="math">r</span> is the Earth's radius (≈ <span class="math">6{,}371\text{ km}</span> or <span class="math">3{,}959\text{ mi}</span>)
+- <span class="math">\Delta\varphi = \varphi_2 - \varphi_1</span> is the difference in latitude (radians)
+- <span class="math">\Delta\lambda = \lambda_2 - \lambda_1</span> is the difference in longitude (radians)
+- <span class="math">\varphi_1, \varphi_2</span> are the latitudes of the two points
+- <span class="math">\lambda_1, \lambda_2</span> are the longitudes of the two points
+
+Plugging those values in returns the shortest surface distance (the **great-circle distance**)—ideal for any geospatial filter you need on the server.
+
 ### The Data Model
 
 We'll generalise first and then pivot to a concrete example:
