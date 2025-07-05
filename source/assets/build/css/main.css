@@ -760,7 +760,7 @@ pre code.torchlight .line .line-number,
   font-size: 1.5rem;
   text-align: center;
   --tw-text-opacity: 1;
-  color: rgb(17 24 39 / var(--tw-text-opacity));
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 .mc-field-group input {
   float: left;
@@ -814,6 +814,9 @@ pre code.torchlight .line .line-number,
   }
     }
 /* Your custom blog styles here */
+.static {
+  position: static;
+}
 .absolute {
   position: absolute;
 }
@@ -1531,22 +1534,6 @@ pre code.torchlight .line .line-number,
 
   .md\:w-2\/3 {
     width: 66.666667%;
-  }
-
-  .md\:w-2\/4 {
-    width: 50%;
-  }
-
-  .md\:w-1\/4 {
-    width: 25%;
-  }
-
-  .md\:w-48 {
-    width: 12rem;
-  }
-
-  .md\:w-80 {
-    width: 20rem;
   }
 
   .md\:max-w-full {
