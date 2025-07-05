@@ -168,6 +168,39 @@ pre {
     @apply bg-blue-500;
 }
 
+table {
+    @apply w-full;
+    @apply my-6;
+    @apply text-sm;
+    @apply border-collapse;
+    @apply border;
+    @apply border-gray-700;
+}
+
+th {
+    @apply px-4;
+    @apply py-3;
+    @apply text-left;
+    @apply font-medium;
+    @apply text-gray-200;
+    @apply bg-gray-800;
+    @apply border;
+    @apply border-gray-700;
+}
+
+td {
+    @apply px-4;
+    @apply py-3;
+    @apply text-gray-300;
+    @apply border;
+    @apply border-gray-700;
+}
+
+tr:last-child td {
+    @apply border-b-0;
+}
+
+
 [x-cloak] {
     display: none !important;
 }
