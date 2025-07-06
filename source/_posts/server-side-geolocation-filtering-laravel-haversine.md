@@ -10,8 +10,6 @@ cover_image: /assets/img/posts/server-side-geolocation-filtering-laravel-haversi
 
 Distance-aware queries are a core feature for modern apps—whether you're matching riders and drivers, showing events around a user, or surfacing the nearest warehouses for same-day delivery. The fastest, most accurate way to deliver those results is to compute great-circle distance inside your SQL engine with the Haversine formula, then let Eloquent give you a fluent, testable API.
 
-Below you'll find a drop-in scope that mirrors the code sample you shared, plus clear guidance on modelling, relationships, and performance.
-
 ### Why Haversine?
 
 **Mathematically sound.** Haversine treats Earth as a sphere, producing realistic distances at planetary scale without the overhead of full ellipsoidal calculations.
