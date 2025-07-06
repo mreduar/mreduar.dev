@@ -53,6 +53,8 @@ We'll generalise first and then pivot to a concrete example:
 ### The Scope
 
 ```php
+use Illuminate\Database\Eloquent\Builder;
+
 /**
  * Scope a query to include only records within a given radius.
  *
@@ -63,41 +65,32 @@ We'll generalise first and then pivot to a concrete example:
  * @param  string  $units
  * @return \Illuminate\Database\Eloquent\Builder
  */
-public static function scopeByDistance(
-    $query,
-    $distance,
-    $lat,
-    $lng,
-    string $units = 'kilometers'
-) {
-    $query->when($distance && $lat && $lng, function ($query) use ($lat, $lng, $units, $distance) {
-        // Decide Earth-radius constant
-        $greatCircleRadius = match ($units) {
-            'miles' => 3959,  // mi
-            'kilometers', default => 6371,  // km
-        };
+public function scopeDistance(Builder $query, float|int $distance, float $lat, float $lng, string $units = 'kilometers')
+{
+    if (!$distance || !$lat || !$lng) {
+        return $query; // nothing to filter
+    }
 
-        // Haversine select expression
-        $haversine = sprintf(
-            'ROUND(( %d * ACOS( COS( RADIANS(%s) ) ' .
-            '* COS( RADIANS( latitude ) ) ' .
-            '* COS( RADIANS( longitude ) - RADIANS(%s) ) ' .
-            '+ SIN( RADIANS(%s) ) * SIN( RADIANS( latitude ) ) ) ), 2) AS distance',
-            $greatCircleRadius,
-            $lat,
-            $lng,
-            $lat
-        );
+    $radius = $units === 'miles' ? 3959 : 6371; // Earth radius
 
-        // Filter through the coordinates relation
-        $query->whereHas('coordinates', fn ($coordinate) => $coordinate
-            ->select(DB::raw($haversine))
-            ->having('distance', '<=', $distance)
-            ->orderBy('distance', 'ASC')
-        );
-    });
+    // Haversine formula (placeholders only)
+    $haversine = "(
+        ? * ACOS(
+            COS(RADIANS(?)) *
+            COS(RADIANS(coordinates.latitude)) *
+            COS(RADIANS(coordinates.longitude) - RADIANS(?)) +
+            SIN(RADIANS(?)) *
+            SIN(RADIANS(coordinates.latitude))
+        )
+    )";
 
-    return $query;
+    $bindings = [$radius, $lat, $lng, $lat];
+
+    return $query->whereHas('coordinates', fn ($q) =>
+        $q->selectRaw("ROUND($haversine, 2) AS distance", $bindings)
+          ->having('distance', '<=', $distance)
+          ->orderBy('distance', 'asc')
+    );
 }
 ```
 
