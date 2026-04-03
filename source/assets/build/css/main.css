@@ -1100,6 +1100,12 @@ tr:last-child td {
   }
     }
 /* Your custom blog styles here */
+.collapse {
+  visibility: collapse;
+}
+.static {
+  position: static;
+}
 .absolute {
   position: absolute;
 }
