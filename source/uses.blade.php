@@ -78,28 +78,25 @@ description: This page contains a list of all the hardware I own and all the sof
                                     <a href="https://marketplace.visualstudio.com/items?itemName=austenc.laravel-docs">Laravel Docs</a>
                                 </li>
                                 <li>
-                                    <a href="https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel5-snippets">Laravel Snippets</a>
+                                    <a href="https://marketplace.visualstudio.com/items?itemName=cjhowe7.laravel-blade">Laravel Blade Snippets</a>
                                 </li>
                                 <li>
-                                    <a href="https://marketplace.visualstudio.com/items?itemName=ahinkle.laravel-model-snippets">Laravel Model Snippets</a>
+                                    <a href="https://marketplace.visualstudio.com/items?itemName=porifa.laravel-intelephense">Laravel Intelephense</a>
                                 </li>
                                 <li>
-                                    <a href="https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-blade">Laravel Blade Snippets</a>
+                                    <a href="https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client">PHP Intelephense</a>
                                 </li>
                                 <li>
-                                    <a href="https://marketplace.visualstudio.com/items?itemName=codingyu.laravel-goto-view">Laravel goto view</a>
-                                </li>
-                                <li>
-                                    <a href="https://marketplace.visualstudio.com/items?itemName=open-southeners.laravel-pint">Laravel Pint</a>
-                                </li>
-                                <li>
-                                    <a href="https://marketplace.visualstudio.com/items?itemName=calebporzio.better-phpunit">Better PHPUnit</a>
+                                    <a href="https://marketplace.visualstudio.com/items?itemName=neilbrayfield.php-docblocker">PHP DocBlocker</a>
                                 </li>
                                 <li>
                                     <a href="https://marketplace.visualstudio.com/items?itemName=m1guelpf.better-pest">Better Pest</a>
                                 </li>
                                 <li>
-                                    <a href="https://marketplace.visualstudio.com/items?itemName=wongjn.php-sniffer">PHP Sniffer</a>
+                                    <a href="https://marketplace.visualstudio.com/items?itemName=liamhammett.temphpest">TempHPest</a>
+                                </li>
+                                <li>
+                                    <a href="https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss">Tailwind CSS IntelliSense</a>
                                 </li>
                                 <li>
                                     <a href="https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode">Prettier</a>
@@ -108,16 +105,10 @@ description: This page contains a list of all the hardware I own and all the sof
                                     <a href="https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint">ESLint</a>
                                 </li>
                                 <li>
-                                    <a href="https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss">Tailwind CSS IntelliSense</a>
-                                </li>
-                                <li>
-                                    <a href="https://marketplace.visualstudio.com/items?itemName=austenc.tailwind-docs">Tailwind Docs</a>
-                                </li>
-                                <li>
-                                    <a href="https://marketplace.visualstudio.com/items?itemName=neilbrayfield.php-docblocker">PHP DocBlocker</a>
-                                </li>
-                                <li>
                                     <a href="https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv">DotENV</a>
+                                </li>
+                                <li>
+                                    <a href="https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml">YAML</a>
                                 </li>
                                 <li>
                                     <a href="https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap">CodeSnap</a>
@@ -126,43 +117,40 @@ description: This page contains a list of all the hardware I own and all the sof
                                     <a href="https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag">Auto Rename Tag</a>
                                 </li>
                                 <li>
-                                    <a href="https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client">PHP Intelephense</a>
+                                    <a href="https://marketplace.visualstudio.com/items?itemName=cardinal90.multi-cursor-case-preserve">Multi Cursor Case Preserve</a>
                                 </li>
                                 <li>
-                                    <a href="https://marketplace.visualstudio.com/items?itemName=GitHub.copilot">GitHub Copilot</a>
+                                    <a href="https://marketplace.visualstudio.com/items?itemName=chunsen.bracket-select">Bracket Select</a>
                                 </li>
                                 <li>
-                                    <a href="https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat">GitHub Copilot Chat</a>
+                                    <a href="https://marketplace.visualstudio.com/items?itemName=github.copilot-chat">GitHub Copilot Chat</a>
                                 </li>
                                 <li>
-                                    <a href="https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-community-material-theme">Community Material Theme</a>
+                                    <a href="https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens">GitLens</a>
+                                </li>
+                                <li>
+                                    <a href="https://marketplace.visualstudio.com/items?itemName=Vue.volar">Vue - Official</a>
+                                </li>
+                                <li>
+                                    <a href="https://marketplace.visualstudio.com/items?itemName=Wscats.vue">Vue 3 Support - All In One</a>
+                                </li>
+                                <li>
+                                    <a href="https://marketplace.visualstudio.com/items?itemName=t3dotgg.vsc-material-theme-but-i-wont-sue-you">Material Theme</a>
                                 </li>
                                 <li>
                                     <a href="https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons">vscode-icons</a>
                                 </li>
-                                {{-- Bracket Select --}}
-                                <li>
-                                    <a href="https://marketplace.visualstudio.com/items?itemName=chunsen.bracket-select">Bracket Select</a>
-                                </li>
-                                {{-- Dev Containers --}}
                                 <li>
                                     <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers">Dev Containers</a>
                                 </li>
-                                {{-- CodeSnap --}}
                                 <li>
-                                    <a href="https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap">CodeSnap</a>
+                                    <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl">WSL</a>
                                 </li>
-                                {{-- GitLens --}}
                                 <li>
-                                    <a href="https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens">GitLens</a>
+                                    <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh">Remote - SSH</a>
                                 </li>
-                                {{-- Vue - Official --}}
                                 <li>
-                                    <a href="https://marketplace.visualstudio.com/items?itemName=Vue.volar">Vue - Official</a>
-                                </li>
-                                {{-- Vue 3 Support - All In One --}}
-                                <li>
-                                    <a href="https://marketplace.visualstudio.com/items?itemName=Wscats.vue">Vue 3 Support - All In One</a>
+                                    <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-explorer">Remote Explorer</a>
                                 </li>
                             </ul>
                         </div>
