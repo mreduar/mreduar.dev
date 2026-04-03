@@ -268,13 +268,18 @@ description: This page contains a list of all the hardware I own and all the sof
                     <span>I listen to music every day to reach a state of maximum concentration.</span>
                 </li>
                 <li>
-                    🗒 <a href="https://www.atlassian.com/software/jira" target="_blank"
-                        rel="noopener noreferrer">Jira</a>
+                    🗒 <a href="https://clickup.com/" target="_blank"
+                        rel="noopener noreferrer">ClickUp</a>
                     <span>To organize my work tasks with the whole team</span>
                 </li>
                 <li>
                     🗒 <a href="https://trello.com/" target="_blank" rel="noopener noreferrer">Trello</a>
                     <span>To create personal tasks and goals that I want to accomplish.</span>
+                </li>
+                <li class="line-through">
+                    🗒 <a href="https://www.atlassian.com/software/jira" target="_blank"
+                        rel="noopener noreferrer">Jira</a>
+                    <span>To organize my work tasks with the whole team</span>
                 </li>
                 <li>
                     <a href="https://github.com/microsoft/PowerToys">🔎 Microsoft PowerToys</a>
