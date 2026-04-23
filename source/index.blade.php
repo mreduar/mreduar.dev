@@ -1,27 +1,43 @@
 @extends('_layouts.main')
 
 @section('header')
-    <img src="/assets/images/me.jpg" alt="Welcome to {{ $page->siteName }}" class="mx-auto rounded-full w-1/4 md:w-1/6 lg:w-1/12">
+    <img src="/assets/images/me.jpg" alt="Eduar Bastidas" class="mx-auto rounded-full w-1/4 md:w-1/6 lg:w-1/12">
     <h1>Hey, I'm Eduar.</h1>
-    <p class="b30">I’m an experienced PHP and Laravel developer<br>with a deep interest in modern web development...</p>
+    <p class="b30 max-w-3xl mx-auto px-4">
+        Full-stack Laravel developer with 7+ years building SaaS, APIs and custom web apps.
+        <br class="hidden md:block">
+        Currently at <a href="https://manyrequests.com" target="_blank" rel="noopener noreferrer" class="underline">ManyRequests</a>, helping agencies scale their operations.
+    </p>
+
+    <ul class="flex flex-wrap justify-center gap-x-6 gap-y-2 list-none my-6 text-sm md:text-base text-cream-light">
+        <li><strong class="text-white">7+ years</strong> of experience</li>
+        <li><strong class="text-white">Laravel · Vue.js · PHP</strong></li>
+        <li><strong class="text-white">3 companies</strong> shipped</li>
+    </ul>
+
     <div class="justify-center flex py-3 text-white">
-        <a href="https://twitter.com/mreduar" target="_blank" rel="noopener noreferrer">
-            <img src="./assets/img/twitter.svg" alt="twitter" class="hover:bg-indigo-800 mx-2 p-2 rounded-xl">
+        <a href="https://twitter.com/mreduar" target="_blank" rel="noopener noreferrer" aria-label="Eduar Bastidas on Twitter">
+            <img src="./assets/img/twitter.svg" alt="" class="hover:bg-indigo-800 mx-2 p-2 rounded-xl">
         </a>
-        <a href="https://github.com/mreduar" target="_blank" rel="noopener noreferrer">
-            <img src="./assets/img/github.svg" alt="github" class="hover:bg-indigo-800 mx-2 p-2 rounded-xl">
+        <a href="https://github.com/mreduar" target="_blank" rel="noopener noreferrer" aria-label="Eduar Bastidas on GitHub">
+            <img src="./assets/img/github.svg" alt="" class="hover:bg-indigo-800 mx-2 p-2 rounded-xl">
         </a>
-        <a href="https://www.linkedin.com/in/mreduar/" target="_blank" rel="noopener noreferrer">
-            <img src="./assets/img/linkedin.svg" alt="linkedin" class="hover:bg-indigo-800 mx-2 p-2 rounded-xl">
+        <a href="https://www.linkedin.com/in/mreduar/" target="_blank" rel="noopener noreferrer" aria-label="Eduar Bastidas on LinkedIn">
+            <img src="./assets/img/linkedin.svg" alt="" class="hover:bg-indigo-800 mx-2 p-2 rounded-xl">
         </a>
-        <a href="https://www.instagram.com/mreduar/" target="_blank" rel="noopener noreferrer">
-            <img src="./assets/img/instagram.svg" alt="instagram" class="hover:bg-indigo-800 mx-2 p-2 rounded-xl">
+        <a href="https://www.instagram.com/mreduar/" target="_blank" rel="noopener noreferrer" aria-label="Eduar Bastidas on Instagram">
+            <img src="./assets/img/instagram.svg" alt="" class="hover:bg-indigo-800 mx-2 p-2 rounded-xl">
         </a>
     </div>
 
-    <a href="/about" class="mt-8 inline-block bg-indigo-900 hover:bg-indigo-800 text-white hover:text-white antialiased text-light-purple font-bold text-sm px-8 py-3 no-underline rounded-full leading-none hover:translateY-1px transition-1s">
-        More about me.
-    </a>
+    <div class="mt-8 flex flex-col sm:flex-row items-center justify-center gap-3">
+        <a href="/about" class="inline-block bg-indigo-900 hover:bg-indigo-800 text-white hover:text-white antialiased text-light-purple font-bold text-sm px-8 py-3 no-underline rounded-full leading-none hover:translateY-1px transition-1s">
+            More about me
+        </a>
+        <a href="/contact" class="inline-block bg-transparent border-2 border-indigo-900 hover:bg-indigo-900 text-white hover:text-white antialiased font-bold text-sm px-8 py-3 no-underline rounded-full leading-none hover:translateY-1px transition-1s">
+            Hire me
+        </a>
+    </div>
 @endsection
 
 @section('body')

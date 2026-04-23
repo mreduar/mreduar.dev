@@ -6,11 +6,47 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="description" content="{{ $page->description ?? $page->siteDescription }}">
+        <meta name="author" content="{{ $page->siteAuthor }}">
+
+        <link rel="canonical" href="{{ $page->getUrl() }}">
 
         <meta property="og:title" content="{{ $page->title ? $page->title . ' | ' : '' }}{{ $page->siteName }}" />
         <meta property="og:type" content="{{ $page->type ?? 'website' }}" />
         <meta property="og:url" content="{{ $page->getUrl() }}" />
         <meta property="og:description" content="{{ $page->description ?? $page->siteDescription }}" />
+        <meta property="og:site_name" content="{{ $page->siteName }}" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:image" content="{{ $page->baseUrl }}/assets/images/me.jpg" />
+        <meta property="og:image:alt" content="Eduar Bastidas — Full-stack Laravel developer" />
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@mreduar">
+        <meta name="twitter:creator" content="@mreduar">
+        <meta name="twitter:title" content="{{ $page->title ? $page->title . ' | ' : '' }}{{ $page->siteName }}">
+        <meta name="twitter:description" content="{{ $page->description ?? $page->siteDescription }}">
+        <meta name="twitter:image" content="{{ $page->baseUrl }}/assets/images/me.jpg">
+
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Eduar Bastidas",
+            "url": "{{ $page->baseUrl }}",
+            "image": "{{ $page->baseUrl }}/assets/images/me.jpg",
+            "jobTitle": "Software Development Engineer",
+            "worksFor": {
+                "@type": "Organization",
+                "name": "ManyRequests",
+                "url": "https://manyrequests.com"
+            },
+            "sameAs": [
+                "https://github.com/mreduar",
+                "https://www.linkedin.com/in/mreduar/",
+                "https://twitter.com/mreduar",
+                "https://www.instagram.com/mreduar/"
+            ]
+        }
+        </script>
 
         <title>{{ $page->title ?  $page->title . ' | ' : '' }}{{ $page->title ? $page->siteName : $page->fullSiteName }}</title>
 
@@ -31,7 +67,9 @@
         </script>
         @endif
 
-        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i"
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i&display=swap"
             rel="stylesheet">
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
     </head>
@@ -44,8 +82,8 @@
                     <a href="/" title="{{ $page->siteName }} home" class="inline-flex items-center">
                         <img class="h-7 md:h-8 mr-3" src="/assets/img/logo.png" alt="{{ $page->siteName }} logo" />
 
-                        <h1 class="text-lg md:text-2xl  font-semibold hover:text-indigo-600 my-0">{{ $page->siteName }}
-                        </h1>
+                        <span class="text-lg md:text-2xl  font-semibold hover:text-indigo-600 my-0">{{ $page->siteName }}
+                        </span>
                     </a>
                 </div>
 

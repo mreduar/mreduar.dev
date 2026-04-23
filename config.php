@@ -7,7 +7,7 @@ return [
     'production' => false,
     'siteName' => 'Eduar Bastidas',
     'fullSiteName' => 'Eduar Bastidas | Full-stack PHP developer.',
-    'siteDescription' => 'Full-stack Web Developer',
+    'siteDescription' => 'Full-stack Laravel developer with 7+ years building SaaS, APIs and web apps with PHP, Vue.js, Inertia.js and Tailwind CSS.',
     'siteAuthor' => 'Eduar Bastidas',
 
     // collections
