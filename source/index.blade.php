@@ -34,9 +34,6 @@
         <a href="/about" class="inline-block bg-indigo-900 hover:bg-indigo-800 text-white hover:text-white antialiased text-light-purple font-bold text-sm px-8 py-3 no-underline rounded-full leading-none hover:translateY-1px transition-1s">
             More about me
         </a>
-        <a href="/contact" class="inline-block bg-transparent border-2 border-indigo-900 hover:bg-indigo-900 text-white hover:text-white antialiased font-bold text-sm px-8 py-3 no-underline rounded-full leading-none hover:translateY-1px transition-1s">
-            Hire me
-        </a>
     </div>
 @endsection
 
