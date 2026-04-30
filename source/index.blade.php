@@ -12,7 +12,6 @@
     <ul class="flex flex-wrap justify-center gap-x-6 gap-y-2 list-none my-6 text-sm md:text-base text-cream-light">
         <li><strong class="text-white">7+ years</strong> of experience</li>
         <li><strong class="text-white">Laravel · Vue.js · PHP</strong></li>
-        <li><strong class="text-white">3 companies</strong> shipped</li>
     </ul>
 
     <div class="justify-center flex py-3 text-white">
