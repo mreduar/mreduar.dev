@@ -5,6 +5,7 @@ title: "The Bottleneck Moved"
 date: 2026-04-19
 description: "Typing was never the skill. It just looked like it because typing was the bottleneck. Now that AI writes the code, what's left is the part that was always hard."
 categories: [tips]
+cover_image: /assets/img/posts/the-bottleneck-moved-comic-horizontal.png
 ---
 
 For years, the hardest part of being a developer was typing. You'd stare at a blank file, load the problem into your head, and grind out a solution one line at a time. That labor was the product. It was also the constraint. How much you shipped came down to how fast you could think in syntax.
