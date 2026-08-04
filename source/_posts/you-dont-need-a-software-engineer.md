@@ -5,6 +5,7 @@ title: "You Don't Need a Software Engineer"
 date: 2026-08-04
 description: "Someone asked me if you can build an app without hiring a software engineer. Absolutely you can. Here is the short list of what you have to handle first."
 categories: [opinion]
+cover_image: /assets/img/posts/you-dont-need-a-software-engineer-comic-horizontal.png
 ---
 
 Someone asked me the other day whether you can build an app without hiring a software engineer.
