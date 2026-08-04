@@ -4,7 +4,7 @@ section: content
 title: "The Bottleneck Moved"
 date: 2026-04-19
 description: "Typing was never the skill. It just looked like it because typing was the bottleneck. Now that AI writes the code, what's left is the part that was always hard."
-categories: [tips]
+categories: [opinion]
 cover_image: /assets/img/posts/the-bottleneck-moved-comic-horizontal.png
 ---
 

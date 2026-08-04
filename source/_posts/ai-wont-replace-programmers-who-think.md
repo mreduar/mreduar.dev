@@ -4,7 +4,7 @@ section: content
 title: "AI Won't Replace Programmers. It Will Replace Those Who Never Learned to Be One"
 date: 2026-04-03
 description: "In 5 years, the programmer who only knows how to write code will struggle to find a job. But it's not AI's fault. It's the fault of never truly understanding what we were doing."
-categories: [tips]
+categories: [opinion]
 ---
 
 I've been hearing the exact same thing for weeks now. On Twitter, on LinkedIn, in conversations with friends who don't even code.
