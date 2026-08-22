@@ -308,65 +308,94 @@ description: This page contains a list of all the hardware I own and all the sof
         <h2>
             Hardware
         </h2>
-        <img src="/assets/images/cpu.png" alt="MY PC" class="md:w-2/3 mx-auto my-3">
+        <video playsinline autoplay muted loop preload="metadata" aria-label="My PC"
+            class="block md:w-2/3 mx-auto my-3 rounded-lg">
+            <source src="/assets/videos/pc-2026.mp4" type="video/mp4">
+        </video>
         <ul class="list-none">
             <li>
                 CPU:
-                <a href="https://ark.intel.com/content/www/en/en/ark/products/199271/intel-core-i5-10400-processor-12m-cache-up-to-4-30-ghz.html"
-                    target="_blank">
-                    Intel Core i5-10400
+                <a href="https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9950x3d.html"
+                    target="_blank" rel="noopener noreferrer">
+                    AMD Ryzen 9 9950X3D
                 </a>
+                16 cores / 32 threads
             </li>
             <li>
                 GPU:
-                <a href="https://www.gigabyte.com/co/Graphics-Card/GV-R56XTGAMING-OC-6GD" target="_blank"> Gigabyte
-                    Radeon RX 5600 XT GAMING OC 6G
+                <a href="https://www.gigabyte.com/Graphics-Card/GV-N5090AORUSM-ICE-32GD" target="_blank" rel="noopener noreferrer">
+                    AORUS GeForce RTX 5090 MASTER ICE
                 </a>
+                32 GB
             </li>
             <li>
                 RAM:
-                <a href="https://www.corsair.com/lm/en/vengeance-rgb-pro-memory" target="_blank">
-                    Corsair Vengeance RGB Pro DDR4 3600
+                <a href="https://www.corsair.com/us/en/p/memory/cmp96gx5m2b6600c32/dominator-titanium-rgb-2x48gb-ddr5-dram-6600mt-s-cl32-intel-xmp-memory-kit-cmp96gx5m2b6600c32"
+                    target="_blank" rel="noopener noreferrer">
+                    Corsair Dominator Titanium RGB DDR5 6600 CL32
                 </a>
-                32 GB (2 x 16 GB)
+                96 GB (2 x 48 GB)
             </li>
             <li>
                 CPU Cooler:
-                <a href="https://nzxt.com/product/kraken-m22" target="_blank">Kraken M22 Liquid Cooler</a>
+                <a href="https://shop.tryx.com/products/tryx-panorama-se-360-argb-white" target="_blank" rel="noopener noreferrer">
+                    TRYX Panorama SE 360 ARGB
+                </a>
             </li>
             <li>
                 Storage:
                 <ul class="list-none">
                     <li>
-                        <a href="https://shop.westerndigital.com/en-us/products/internal-drives/wd-blue-sn550-nvme-ssd#WDS250G2B0C"
-                            target="_blank">
-                            Western Digital Blue SN550 NVMe SSD
+                        2 x
+                        <a href="https://www.samsung.com/us/computing/memory-storage/solid-state-drives/990-pro-pcie-4-0-nvme-ssd-4tb-mz-v9p4t0b-am/"
+                            target="_blank" rel="noopener noreferrer">
+                            Samsung 990 PRO NVMe SSD
                         </a>
-                        500GB
-                    </li>
-                    <li>
-                        <a href="https://www.seagate.com/products/hard-drives/barracuda-hard-drive/" target="_blank">
-                            Seagate BarraCuda Internal Hard Drive HDD
-                        </a>
-                        2TB
+                        4TB
                     </li>
                 </ul>
             </li>
             <li>
                 Motherboard:
-                <a href="https://www.msi.com/Motherboard/MPG-Z490-GAMING-PLUS" target="_blank">MSI MPG Z490 Gaming
-                    Plus</a>
+                <a href="https://www.gigabyte.com/Motherboard/X870E-AORUS-PRO-ICE" target="_blank" rel="noopener noreferrer">
+                    Gigabyte X870E AORUS PRO ICE
+                </a>
             </li>
             <li>
                 PSU:
-                <a href="https://www.gigabyte.com/ph/Power-Supply/GP-P750GM#kf" target="_blank">
-                    EVGA SuperNOVA 650 GA, 80 Plus Gold, Fully Modular
+                <a href="https://lian-li.com/product/edge/" target="_blank" rel="noopener noreferrer">
+                    Lian Li EDGE 1300W, 80 Plus Platinum, Fully Modular
                 </a>
-                650W
             </li>
             <li>
                 Case:
-                <a href="https://nzxt.com/product/h510" target="_blank">NZXT H510 Matte Black/Red</a>
+                <a href="https://hyte.com/store/y70/cs-hyte-y70tti-ww" target="_blank" rel="noopener noreferrer">
+                    HYTE Y70 Touch Infinite
+                </a>
+                Snow White
+            </li>
+            <li>
+                Fans:
+                <a href="https://lian-li.com/product/uni-fan-sl-infinity/" target="_blank" rel="noopener noreferrer">
+                    Lian Li UNI FAN SL Infinity
+                </a>
+            </li>
+            <li>
+                RGB Cables:
+                <ul class="list-none">
+                    <li>
+                        <a href="https://lian-li.com/product/strimer-wireless/" target="_blank" rel="noopener noreferrer">
+                            Lian Li Strimer Wireless 24-Pin
+                        </a>
+                        (PW24-1W-T)
+                    </li>
+                    <li>
+                        <a href="https://lian-li.com/product/strimer-wireless/" target="_blank" rel="noopener noreferrer">
+                            Lian Li Strimer Wireless 16-Pin GPU
+                        </a>
+                        (PW16-121W) 370mm
+                    </li>
+                </ul>
             </li>
         </ul>
     </section>
@@ -375,46 +404,160 @@ description: This page contains a list of all the hardware I own and all the sof
         <h2>
             Audio + Video + Peripherals
         </h2>
-        <img src="/assets/images/setup.png" alt="Setup" class="md:w-2/3 mx-auto my-3">
+        <video playsinline autoplay muted loop preload="metadata" aria-label="My setup"
+            class="block md:w-2/3 mx-auto my-3 rounded-lg">
+            <source src="/assets/videos/setup-2026.mp4" type="video/mp4">
+        </video>
         <ul class="list-none">
             <li>
-                My system audio revolves around a <a
-                    href="https://www.amazon.com/-/en/Genius-SW-G2-1-1250-0-138-reproductores/dp/B08143J5G6"
-                    target="_blank">
+                My system audio still revolves around a <a href="https://www.geniusnet.com/en/support/view/257"
+                    target="_blank" rel="noopener noreferrer">
                     Genius SW-G2.1 1250
                 </a>
-                home theater.
+                home theater. It survived the whole PC upgrade and I still have no reason to replace it.
             </li>
             <li>
-                I have an
-                <a href="https://www.sceptre.com/Monitors/UltraWide/C305B-200UN-30-Curved-Monitor-product1134category12category95.html"
-                    target="_blank">
-                    Sceptre 30-inch Curved Gaming Monitor
-                </a>
-                Ultra Wide 200Hz, I usually split the screen in two or three depending on what I am doing.
+                I have a
+                <a href="https://www.samsung.com/us/monitors/gaming/57-inch-odyssey-neo-g9-dual-4k-uhd-quantum-mini-led-240hz-1ms-hdr-1000-curved-gaming-monitor-sku-ls57cg952nnxza/"
+                    target="_blank" rel="noopener noreferrer">
+                    Samsung Odyssey Neo G9 (G95NC)</a>, a 57-inch Dual UHD 240Hz curved monitor. Two 4K panels with no
+                bezel in the middle, so I usually split it in two or three.
             </li>
             <li>
-                I also like to change headphones depending on the case, when I need more concentration I use the HP Gaming
-                Headset H300.
+                It hangs from a
+                <a href="https://bewiserdesign.com/products/bewiser-heavy-duty-monitor-arm-ultrawide-monitor-mount-for-34-57-inches-screens-weight-capacity-up-to-44-lbs-full-motion-height-swivel-adjustable-monitor-arms1020-ps"
+                    target="_blank" rel="noopener noreferrer">
+                    BEWISER Heavy Duty Monitor Arm</a>, which keeps the whole desk free underneath.
             </li>
             <li>
-                I write with a <a href="https://www.redragonzone.com/products/redragonk556">Redragon K556 RGB Mechanical
-                    Gaming Keyboard</a> with which I feel very comfortable while programming or playing, because of its not
-                so big size it allows me to have more space to move the mouse.
+                When I need to isolate myself I switch to a <a href="https://www.razer.com/gaming-headsets/razer-kraken-v3-hypersense"
+                    target="_blank" rel="noopener noreferrer">Razer Kraken V3 HyperSense</a>, whose built-in mic also
+                doubles as my microphone for calls.
             </li>
             <li>
-                To move the pointer I use a <a href="https://www2.razer.com/gaming-mice/razer-deathadder-elite">Razer
-                    Deathadder Elite</a> with 16,000 dpi precision, so that I don't miss any of the few clicks I make with
+                I write with a <a href="https://redragonshop.com/products/devarajas-k556" target="_blank" rel="noopener noreferrer">Redragon K556 RGB Mechanical
+                    Gaming Keyboard</a> with which I feel very comfortable while programming or playing.
+            </li>
+            <li>
+                To move the pointer I use a <a href="https://www.razer.com/gaming-mice/razer-basilisk-v3" target="_blank" rel="noopener noreferrer">Razer
+                    Basilisk V3</a> with 26,000 dpi precision, so that I don't miss any of the few clicks I make with
                 it while programming.
             </li>
             <li>
-                Finally, to give a more RGB touch to my setup I have a <a
-                    href="https://www2.razer.com/gaming-mouse-mats/razer-goliathus-chroma">Razer Goliathus Extended Chroma
-                    Gaming Mouse Mat</a>.
-                To position the keyboard and the mouse on the same mouse pad, I think it gives it a nice gaming touch as I
-                like it.
+                The keyboard and the mouse share a single <a href="https://www.razer.com/gaming-mouse-mats/razer-strider-chroma"
+                    target="_blank" rel="noopener noreferrer">Razer Strider Chroma</a> hybrid mouse mat, which I think
+                gives the desk a nice gaming touch.
+            </li>
+            <li>
+                Finally, the wall behind the desk is covered with
+                <a href="https://us.govee.com/products/govee-glide-hexagon-light-panels-ultra" target="_blank" rel="noopener noreferrer">
+                    Govee Glide Hexagon Light Panels Ultra
+                </a>
+                RGBIC 3D wall lights. They sync with whatever is on screen, which is either great for immersion or a
+                terrible idea at 2 AM.
             </li>
         </ul>
+
+        <details class="my-5 ml-8">
+            <summary class="cursor-pointer">
+                <span class="text-indigo-600 font-bold">
+                    My previous setup
+                </span>
+                <p class="m-0">The rig I used until 2025</p>
+            </summary>
+            <div>
+                <h3 class="text-xl">Hardware</h3>
+                <img src="/assets/images/cpu.png" alt="My previous PC" class="md:w-2/3 mx-auto my-3">
+                <ul class="list-none">
+                    <li>
+                        CPU:
+                        <a href="https://ark.intel.com/content/www/us/en/ark/products/199271/intel-core-i5-10400-processor-12m-cache-up-to-4-30-ghz.html"
+                            target="_blank" rel="noopener noreferrer">
+                            Intel Core i5-10400
+                        </a>
+                    </li>
+                    <li>
+                        GPU:
+                        <a href="https://www.gigabyte.com/Graphics-Card/GV-R56XTGAMING-OC-6GD" target="_blank" rel="noopener noreferrer">
+                            Gigabyte Radeon RX 5600 XT GAMING OC 6G
+                        </a>
+                    </li>
+                    <li>
+                        RAM:
+                        <a href="https://www.corsair.com/us/en/s/vengeance-rgb-pro-memory" target="_blank" rel="noopener noreferrer">
+                            Corsair Vengeance RGB Pro DDR4 3600
+                        </a>
+                        32 GB (2 x 16 GB)
+                    </li>
+                    <li>
+                        CPU Cooler:
+                        <a href="https://nzxt.com/products/kraken-m22" target="_blank" rel="noopener noreferrer">Kraken M22 Liquid Cooler</a>
+                    </li>
+                    <li>
+                        Storage:
+                        <ul class="list-none">
+                            <li>
+                                <a href="https://www.westerndigital.com/products/internal-drives/wd-blue-sn550-nvme-ssd"
+                                    target="_blank" rel="noopener noreferrer">
+                                    Western Digital Blue SN550 NVMe SSD
+                                </a>
+                                500GB
+                            </li>
+                            <li>
+                                <a href="https://www.seagate.com/products/hard-drives/barracuda-hard-drive/" target="_blank" rel="noopener noreferrer">
+                                    Seagate BarraCuda Internal Hard Drive HDD
+                                </a>
+                                2TB
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        Motherboard:
+                        <a href="https://www.msi.com/Motherboard/MPG-Z490-GAMING-PLUS" target="_blank" rel="noopener noreferrer">
+                            MSI MPG Z490 Gaming Plus
+                        </a>
+                    </li>
+                    <li>
+                        PSU:
+                        <a href="https://www.evga.com/products/product.aspx?pn=220-GA-0650-X1" target="_blank" rel="noopener noreferrer">
+                            EVGA SuperNOVA 650 GA, 80 Plus Gold, Fully Modular
+                        </a>
+                        650W
+                    </li>
+                    <li>
+                        Case:
+                        <a href="https://nzxt.com/products/h510" target="_blank" rel="noopener noreferrer">NZXT H510 Matte Black/Red</a>
+                    </li>
+                </ul>
+
+                <h3 class="text-xl mt-10">Audio + Video + Peripherals</h3>
+                <img src="/assets/images/setup.png" alt="My previous setup" class="md:w-2/3 mx-auto my-3">
+                <ul class="list-none">
+                    <li>
+                        A <a href="https://www.sceptre.com/Monitors/UltraWide/C305B-200UN-30-Curved-Monitor-product1134category12category95.html"
+                            target="_blank" rel="noopener noreferrer">
+                            Sceptre 30-inch Curved Gaming Monitor
+                        </a>
+                        Ultra Wide 200Hz, which I usually split in two or three depending on what I was doing.
+                    </li>
+                    <li>
+                        An HP Gaming Headset H300 whenever I needed to concentrate.
+                    </li>
+                    <li>
+                        A <a href="https://support.razer.com/gaming-mice/razer-deathadder-elite/" target="_blank" rel="noopener noreferrer">
+                            Razer Deathadder Elite
+                        </a>
+                        with 16,000 dpi precision to move the pointer.
+                    </li>
+                    <li>
+                        A <a href="https://www.razer.com/gaming-mouse-mats/razer-goliathus-extended-chroma" target="_blank" rel="noopener noreferrer">
+                            Razer Goliathus Extended Chroma Gaming Mouse Mat
+                        </a>
+                        big enough to hold the keyboard and the mouse on the same pad.
+                    </li>
+                </ul>
+            </div>
+        </details>
     </section>
 
 @stop
