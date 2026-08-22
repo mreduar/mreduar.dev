@@ -171,6 +171,24 @@ description: This page contains a list of all the hardware I own and all the sof
                     <img src="/assets/images/terminal.png" alt="Windows Terminal" class="md:w-2/3 mx-auto my-3">
                 </li>
                 <li>
+                    <a href="https://claude.com/product/claude-code" target="_blank" rel="noopener noreferrer">
+                        🤖 Claude Code
+                    </a>
+                    <span>An agentic coding tool that lives in the terminal, reads the whole repository and takes the
+                        tedious parts of a task off my hands.</span>
+                </li>
+                <li>
+                    <svg class="inline-block" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                        height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M0 3a2 2 0 012-2h12a2 2 0 012 2v10a2 2 0 01-2 2H2a2 2 0 01-2-2V3zm9.5 5.5h-3a.5.5 0 000 1h3a.5.5 0 000-1zm-6.354-.354L4.793 6.5 3.146 4.854a.5.5 0 11.708-.708l2 2a.5.5 0 010 .708l-2 2a.5.5 0 01-.708-.708z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                    <a href="https://herdr.dev" target="_blank" rel="noopener noreferrer">herdr</a>
+                    <span>A terminal workspace manager for AI coding agents, so I can keep several of them running on
+                        different projects at once.</span>
+                </li>
+                <li>
                     <svg class="inline-block" stroke="currentColor" fill="currentColor" stroke-width="0"
                         viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd"
