@@ -6,9 +6,11 @@ description: This page contains a list of all the hardware I own and all the sof
 
 @section('body')
 
-    <section>
-        <h2>
-            Software, tools and more
+    <section id="software">
+        <h2 class="group">
+            <a href="#software" class="text-white hover:text-white">Software, tools and more<span
+                    class="ml-3 text-indigo-600 opacity-0 group-hover:opacity-100 transition-opacity"
+                    aria-hidden="true">#</span></a>
         </h2>
 
         <div class="mt-10">
@@ -322,9 +324,11 @@ description: This page contains a list of all the hardware I own and all the sof
         </div>
     </section>
 
-    <section>
-        <h2>
-            Hardware
+    <section id="hardware">
+        <h2 class="group">
+            <a href="#hardware" class="text-white hover:text-white">Hardware<span
+                    class="ml-3 text-indigo-600 opacity-0 group-hover:opacity-100 transition-opacity"
+                    aria-hidden="true">#</span></a>
         </h2>
         <video playsinline autoplay muted loop preload="metadata" aria-label="My PC"
             class="block md:w-2/3 mx-auto my-3 rounded-lg">
@@ -418,9 +422,11 @@ description: This page contains a list of all the hardware I own and all the sof
         </ul>
     </section>
 
-    <section>
-        <h2>
-            Audio + Video + Peripherals
+    <section id="peripherals">
+        <h2 class="group">
+            <a href="#peripherals" class="text-white hover:text-white">Audio + Video + Peripherals<span
+                    class="ml-3 text-indigo-600 opacity-0 group-hover:opacity-100 transition-opacity"
+                    aria-hidden="true">#</span></a>
         </h2>
         <video playsinline autoplay muted loop preload="metadata" aria-label="My setup"
             class="block md:w-2/3 mx-auto my-3 rounded-lg">
